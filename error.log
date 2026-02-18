@@ -1,0 +1,1200 @@
+[18-Feb-2026 02:25:10 UTC] PHP Warning:  require_once(C:\xampp\htdocs\barber/functions/auth.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\barber\functions.php on line 15
+[18-Feb-2026 02:25:10 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\xampp\htdocs\barber/functions/auth.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\barber\functions.php:15
+Stack trace:
+#0 C:\xampp\htdocs\barber\forgot_password.php(3): require_once()
+#1 {main}
+  thrown in C:\xampp\htdocs\barber\functions.php on line 15
+[18-Feb-2026 02:25:38 UTC] PHP Warning:  require_once(C:\xampp\htdocs\barber/functions/auth.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\barber\functions.php on line 15
+[18-Feb-2026 02:25:38 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\xampp\htdocs\barber/functions/auth.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\barber\functions.php:15
+Stack trace:
+#0 C:\xampp\htdocs\barber\index.php(3): require_once()
+#1 {main}
+  thrown in C:\xampp\htdocs\barber\functions.php on line 15
+[18-Feb-2026 02:29:04 UTC] PHP Fatal error:  Cannot redeclare send_email() (previously declared in C:\xampp\htdocs\barber\functions.php:26) in C:\xampp\htdocs\barber\includes\email_functions.php on line 95
+[18-Feb-2026 02:29:06 UTC] PHP Fatal error:  Cannot redeclare send_email() (previously declared in C:\xampp\htdocs\barber\functions.php:26) in C:\xampp\htdocs\barber\includes\email_functions.php on line 95
+[18-Feb-2026 02:29:45 UTC] PHP Warning:  require_once(C:\xampp\htdocs\barber/functions/auth.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\barber\functions.php on line 58
+[18-Feb-2026 02:29:45 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\xampp\htdocs\barber/functions/auth.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\barber\functions.php:58
+Stack trace:
+#0 C:\xampp\htdocs\barber\index.php(3): require_once()
+#1 {main}
+  thrown in C:\xampp\htdocs\barber\functions.php on line 58
+[18-Feb-2026 02:29:46 UTC] PHP Warning:  require_once(C:\xampp\htdocs\barber/functions/auth.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\barber\functions.php on line 58
+[18-Feb-2026 02:29:46 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\xampp\htdocs\barber/functions/auth.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\barber\functions.php:58
+Stack trace:
+#0 C:\xampp\htdocs\barber\index.php(3): require_once()
+#1 {main}
+  thrown in C:\xampp\htdocs\barber\functions.php on line 58
+[18-Feb-2026 02:30:57 UTC] PHP Fatal error:  Cannot redeclare is_logged_in() (previously declared in C:\xampp\htdocs\barber\functions.php:186) in C:\xampp\htdocs\barber\functions\auth.php on line 9
+[18-Feb-2026 02:30:58 UTC] PHP Fatal error:  Cannot redeclare is_logged_in() (previously declared in C:\xampp\htdocs\barber\functions.php:186) in C:\xampp\htdocs\barber\functions\auth.php on line 9
+[18-Feb-2026 02:32:14 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function send_verification_email() in C:\xampp\htdocs\barber\login.php:39
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\barber\login.php on line 39
+[18-Feb-2026 02:33:15 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function send_verification_email_new() in C:\xampp\htdocs\barber\login.php:39
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\barber\login.php on line 39
+[18-Feb-2026 02:33:19 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function send_verification_email_new() in C:\xampp\htdocs\barber\login.php:39
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\barber\login.php on line 39
+[18-Feb-2026 02:33:22 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function send_verification_email_new() in C:\xampp\htdocs\barber\login.php:39
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\barber\login.php on line 39
+[18-Feb-2026 02:34:12 UTC] PHP Fatal error:  Cannot redeclare send_email() (previously declared in C:\xampp\htdocs\barber\functions.php:26) in C:\xampp\htdocs\barber\includes\email_functions.php on line 95
+[18-Feb-2026 02:35:11 UTC] PHP Fatal error:  Cannot redeclare send_email() (previously declared in C:\xampp\htdocs\barber\functions.php:26) in C:\xampp\htdocs\barber\includes\email_functions.php on line 95
+[18-Feb-2026 02:35:14 UTC] PHP Fatal error:  Cannot redeclare send_email() (previously declared in C:\xampp\htdocs\barber\functions.php:26) in C:\xampp\htdocs\barber\includes\email_functions.php on line 95
+[18-Feb-2026 02:41:12 UTC] PHP Fatal error:  Cannot redeclare send_email() (previously declared in C:\xampp\htdocs\barber\functions.php:26) in C:\xampp\htdocs\barber\includes\email_functions.php on line 98
+[18-Feb-2026 02:43:59 UTC] Dashboard - Session data: Array
+(
+    [last_verification_code_register] => 794413
+    [pending_reset_user_id] => 1
+    [reset_code] => 530528
+    [reset_code_expires_at] => 2026-02-18 03:20:07
+    [last_verification_code_login] => 891028
+    [user_id] => 1
+)
+
+[18-Feb-2026 02:43:59 UTC] Dashboard - Booking success: 
+[18-Feb-2026 02:44:20 UTC] PHPMailer: SERVER -> CLIENT: 220 smtp.gmail.com ESMTP 5b1f17b1804b1-4834d5d78cfsm807826275e9.1 - gsmtp
+
+[18-Feb-2026 02:44:20 UTC] PHPMailer: CLIENT -> SERVER: EHLO localhost
+
+[18-Feb-2026 02:44:21 UTC] PHPMailer: SERVER -> CLIENT: 250-smtp.gmail.com at your service, [129.122.56.170]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+[18-Feb-2026 02:44:21 UTC] PHPMailer: CLIENT -> SERVER: STARTTLS
+
+[18-Feb-2026 02:44:21 UTC] PHPMailer: SERVER -> CLIENT: 220 2.0.0 Ready to start TLS
+
+[18-Feb-2026 02:44:22 UTC] PHPMailer: CLIENT -> SERVER: EHLO localhost
+
+[18-Feb-2026 02:44:22 UTC] PHPMailer: SERVER -> CLIENT: 250-smtp.gmail.com at your service, [129.122.56.170]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+[18-Feb-2026 02:44:22 UTC] PHPMailer: CLIENT -> SERVER: AUTH LOGIN
+
+[18-Feb-2026 02:44:22 UTC] PHPMailer: SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+[18-Feb-2026 02:44:22 UTC] PHPMailer: CLIENT -> SERVER: [credentials hidden]
+[18-Feb-2026 02:44:22 UTC] PHPMailer: SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+[18-Feb-2026 02:44:22 UTC] PHPMailer: CLIENT -> SERVER: [credentials hidden]
+[18-Feb-2026 02:44:22 UTC] PHPMailer: SERVER -> CLIENT: 235 2.7.0 Accepted
+
+[18-Feb-2026 02:44:22 UTC] PHPMailer: CLIENT -> SERVER: MAIL FROM:<blessb0243@gmail.com>
+
+[18-Feb-2026 02:44:23 UTC] PHPMailer: SERVER -> CLIENT: 250 2.1.0 OK 5b1f17b1804b1-4834d5d78cfsm807826275e9.1 - gsmtp
+
+[18-Feb-2026 02:44:23 UTC] PHPMailer: CLIENT -> SERVER: RCPT TO:<baidoob7525@gmail.com>
+
+[18-Feb-2026 02:44:23 UTC] PHPMailer: SERVER -> CLIENT: 250 2.1.5 OK 5b1f17b1804b1-4834d5d78cfsm807826275e9.1 - gsmtp
+
+[18-Feb-2026 02:44:23 UTC] PHPMailer: CLIENT -> SERVER: DATA
+
+[18-Feb-2026 02:44:23 UTC] PHPMailer: SERVER -> CLIENT: 354 Go ahead 5b1f17b1804b1-4834d5d78cfsm807826275e9.1 - gsmtp
+
+[18-Feb-2026 02:44:23 UTC] PHPMailer: CLIENT -> SERVER: Date: Wed, 18 Feb 2026 02:44:20 +0000
+
+[18-Feb-2026 02:44:23 UTC] PHPMailer: CLIENT -> SERVER: To: Blessing Baidoo <baidoob7525@gmail.com>
+
+[18-Feb-2026 02:44:23 UTC] PHPMailer: CLIENT -> SERVER: From: Your Barber Shop <blessb0243@gmail.com>
+
+[18-Feb-2026 02:44:23 UTC] PHPMailer: CLIENT -> SERVER: Reply-To: Your Barber Shop <blessb0243@gmail.com>
+
+[18-Feb-2026 02:44:23 UTC] PHPMailer: CLIENT -> SERVER: Subject: Appointment Confirmation #APP-260218-DB1B
+
+[18-Feb-2026 02:44:23 UTC] PHPMailer: CLIENT -> SERVER: Message-ID: <bgKxT7jyPEUpgaVGIcGGqzmgYDkaMUa78UhLmhtUNw@localhost>
+
+[18-Feb-2026 02:44:23 UTC] PHPMailer: CLIENT -> SERVER: X-Mailer: PHPMailer 7.0.2 (https://github.com/PHPMailer/PHPMailer)
+
+[18-Feb-2026 02:44:23 UTC] PHPMailer: CLIENT -> SERVER: MIME-Version: 1.0
+
+[18-Feb-2026 02:44:23 UTC] PHPMailer: CLIENT -> SERVER: Content-Type: multipart/alternative;
+
+[18-Feb-2026 02:44:23 UTC] PHPMailer: CLIENT -> SERVER:  boundary="b1=_bgKxT7jyPEUpgaVGIcGGqzmgYDkaMUa78UhLmhtUNw"
+
+[18-Feb-2026 02:44:23 UTC] PHPMailer: CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+[18-Feb-2026 02:44:23 UTC] PHPMailer: CLIENT -> SERVER: 
+
+[18-Feb-2026 02:44:23 UTC] PHPMailer: CLIENT -> SERVER: --b1=_bgKxT7jyPEUpgaVGIcGGqzmgYDkaMUa78UhLmhtUNw
+
+[18-Feb-2026 02:44:23 UTC] PHPMailer: CLIENT -> SERVER: Content-Type: text/plain; charset=us-ascii
+
+[18-Feb-2026 02:44:23 UTC] PHPMailer: CLIENT -> SERVER: 
+
+[18-Feb-2026 02:44:23 UTC] PHPMailer: CLIENT -> SERVER: APPOINTMENT CONFIRMATION #APP-260218-DB1B
+
+[18-Feb-2026 02:44:23 UTC] PHPMailer: CLIENT -> SERVER: 
+
+[18-Feb-2026 02:44:23 UTC] PHPMailer: CLIENT -> SERVER: Hello Blessing Baidoo,
+
+[18-Feb-2026 02:44:23 UTC] PHPMailer: CLIENT -> SERVER: 
+
+[18-Feb-2026 02:44:23 UTC] PHPMailer: CLIENT -> SERVER: Thank you for booking with us! We're excited to see you soon.
+
+[18-Feb-2026 02:44:23 UTC] PHPMailer: CLIENT -> SERVER: 
+
+[18-Feb-2026 02:44:23 UTC] PHPMailer: CLIENT -> SERVER: APPOINTMENT DETAILS:
+
+[18-Feb-2026 02:44:23 UTC] PHPMailer: CLIENT -> SERVER: ------------------
+
+[18-Feb-2026 02:44:23 UTC] PHPMailer: CLIENT -> SERVER: Appointment #: APP-260218-DB1B
+
+[18-Feb-2026 02:44:23 UTC] PHPMailer: CLIENT -> SERVER: Service: Beard Trim
+
+[18-Feb-2026 02:44:23 UTC] PHPMailer: CLIENT -> SERVER: Date: Saturday, February 28, 2026
+
+[18-Feb-2026 02:44:23 UTC] PHPMailer: CLIENT -> SERVER: Time: 2:44 AM
+
+[18-Feb-2026 02:44:23 UTC] PHPMailer: CLIENT -> SERVER: Duration: 30 minutes
+
+[18-Feb-2026 02:44:23 UTC] PHPMailer: CLIENT -> SERVER: Amount to Pay: GHS 30.00
+
+[18-Feb-2026 02:44:23 UTC] PHPMailer: CLIENT -> SERVER: 
+
+[18-Feb-2026 02:44:23 UTC] PHPMailer: CLIENT -> SERVER: LOCATION:
+
+[18-Feb-2026 02:44:23 UTC] PHPMailer: CLIENT -> SERVER: 123 Barber Street, Accra, Ghana
+
+[18-Feb-2026 02:44:23 UTC] PHPMailer: CLIENT -> SERVER: 
+
+[18-Feb-2026 02:44:23 UTC] PHPMailer: CLIENT -> SERVER: IMPORTANT:
+
+[18-Feb-2026 02:44:23 UTC] PHPMailer: CLIENT -> SERVER: - Please arrive 10 minutes before your scheduled time.
+
+[18-Feb-2026 02:44:23 UTC] PHPMailer: CLIENT -> SERVER: - If you need to reschedule or cancel, please contact us at least 24 hours in advance.
+
+[18-Feb-2026 02:44:23 UTC] PHPMailer: CLIENT -> SERVER: 
+
+[18-Feb-2026 02:44:23 UTC] PHPMailer: CLIENT -> SERVER: Thank you for choosing our service!
+
+[18-Feb-2026 02:44:23 UTC] PHPMailer: CLIENT -> SERVER: 
+
+[18-Feb-2026 02:44:23 UTC] PHPMailer: CLIENT -> SERVER: Best regards,
+
+[18-Feb-2026 02:44:23 UTC] PHPMailer: CLIENT -> SERVER: Your Barber Shop
+
+[18-Feb-2026 02:44:23 UTC] PHPMailer: CLIENT -> SERVER: 
+
+[18-Feb-2026 02:44:23 UTC] PHPMailer: CLIENT -> SERVER: --b1=_bgKxT7jyPEUpgaVGIcGGqzmgYDkaMUa78UhLmhtUNw
+
+[18-Feb-2026 02:44:23 UTC] PHPMailer: CLIENT -> SERVER: Content-Type: text/html; charset=iso-8859-1
+
+[18-Feb-2026 02:44:23 UTC] PHPMailer: CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+[18-Feb-2026 02:44:23 UTC] PHPMailer: CLIENT -> SERVER: 
+
+[18-Feb-2026 02:44:23 UTC] PHPMailer: CLIENT -> SERVER: 
+
+[18-Feb-2026 02:44:23 UTC] PHPMailer: CLIENT -> SERVER:         <html>
+
+[18-Feb-2026 02:44:23 UTC] PHPMailer: CLIENT -> SERVER:         <head>
+
+[18-Feb-2026 02:44:23 UTC] PHPMailer: CLIENT -> SERVER:             <style>
+
+[18-Feb-2026 02:44:23 UTC] PHPMailer: CLIENT -> SERVER:                 body { font-family: Arial, sans-serif; line-height: 1.6; color: #333; }
+
+[18-Feb-2026 02:44:23 UTC] PHPMailer: CLIENT -> SERVER:                 .container { max-width: 600px; margin: 0 auto; padding: 20px; }
+
+[18-Feb-2026 02:44:23 UTC] PHPMailer: CLIENT -> SERVER:                 .header { background: #111827; color: white; padding: 20px; text-align: center; border-radius: 5px 5px 0 0; }
+
+[18-Feb-2026 02:44:23 UTC] PHPMailer: CLIENT -> SERVER:                 .content { padding: 25px; background: #f9fafb; border: 1px solid #e5e7eb; border-top: none; }
+
+[18-Feb-2026 02:44:23 UTC] PHPMailer: CLIENT -> SERVER:                 .details { background: white; padding: 20px; margin: 15px 0; border-radius: 5px; box-shadow: 0 2px 4px rgba(0,0,0,0.05); }
+
+[18-Feb-2026 02:44:23 UTC] PHPMailer: CLIENT -> SERVER:                 .footer { margin-top: 25px; font-size: 0.9em; color: #6b7280; text-align: center; }
+
+[18-Feb-2026 02:44:23 UTC] PHPMailer: CLIENT -> SERVER:                 .button { display: inline-block; padding: 10px 20px; background: #111827; color: white; text-decoration: none; border-radius: 4px; margin: 15px 0; }
+
+[18-Feb-2026 02:44:23 UTC] PHPMailer: CLIENT -> SERVER:                 .highlight { color: #111827; font-weight: bold; }
+
+[18-Feb-2026 02:44:23 UTC] PHPMailer: CLIENT -> SERVER:             </style>
+
+[18-Feb-2026 02:44:23 UTC] PHPMailer: CLIENT -> SERVER:         </head>
+
+[18-Feb-2026 02:44:23 UTC] PHPMailer: CLIENT -> SERVER:         <body>
+
+[18-Feb-2026 02:44:23 UTC] PHPMailer: CLIENT -> SERVER:             <div class='container'>
+
+[18-Feb-2026 02:44:23 UTC] PHPMailer: CLIENT -> SERVER:                 <div class='header'>
+
+[18-Feb-2026 02:44:23 UTC] PHPMailer: CLIENT -> SERVER:                     <h2>✅ Appointment Confirmed!</h2>
+
+[18-Feb-2026 02:44:23 UTC] PHPMailer: CLIENT -> SERVER:                 </div>
+
+[18-Feb-2026 02:44:23 UTC] PHPMailer: CLIENT -> SERVER:                 <div class='content'>
+
+[18-Feb-2026 02:44:23 UTC] PHPMailer: CLIENT -> SERVER:                     <p>Hello Blessing Baidoo,</p>
+
+[18-Feb-2026 02:44:23 UTC] PHPMailer: CLIENT -> SERVER:                     <p>Thank you for booking with us! We're excited to see you soon.</p>
+
+[18-Feb-2026 02:44:23 UTC] PHPMailer: CLIENT -> SERVER:                     
+
+[18-Feb-2026 02:44:23 UTC] PHPMailer: CLIENT -> SERVER:                     <div class='details'>
+
+[18-Feb-2026 02:44:23 UTC] PHPMailer: CLIENT -> SERVER:                         <h3 style='margin-top: 0; color: #111827;'>Appointment Details</h3>
+
+[18-Feb-2026 02:44:23 UTC] PHPMailer: CLIENT -> SERVER:                         <p><strong>Appointment #:</strong> APP-260218-DB1B</p>
+
+[18-Feb-2026 02:44:23 UTC] PHPMailer: CLIENT -> SERVER:                         <p><strong>Service:</strong> Beard Trim</p>
+
+[18-Feb-2026 02:44:23 UTC] PHPMailer: CLIENT -> SERVER:                         <p><strong>Date:</strong> Saturday, February 28, 2026</p>
+
+[18-Feb-2026 02:44:23 UTC] PHPMailer: CLIENT -> SERVER:                         <p><strong>Time:</strong> 2:44 AM</p>
+
+[18-Feb-2026 02:44:23 UTC] PHPMailer: CLIENT -> SERVER:                         <p><strong>Duration:</strong> 30 minutes</p>
+
+[18-Feb-2026 02:44:23 UTC] PHPMailer: CLIENT -> SERVER:                         <p><strong>Amount to Pay:</strong> <span class='highlight'>GHS 30.00</span></p>
+
+[18-Feb-2026 02:44:23 UTC] PHPMailer: CLIENT -> SERVER:                     </div>
+
+[18-Feb-2026 02:44:23 UTC] PHPMailer: CLIENT -> SERVER: 
+
+[18-Feb-2026 02:44:23 UTC] PHPMailer: CLIENT -> SERVER:                     <p>We're located at: <strong>123 Barber Street, Accra, Ghana</strong></p>
+
+[18-Feb-2026 02:44:23 UTC] PHPMailer: CLIENT -> SERVER:                     <p>Please arrive 10 minutes before your scheduled time.</p>
+
+[18-Feb-2026 02:44:23 UTC] PHPMailer: CLIENT -> SERVER:                     
+
+[18-Feb-2026 02:44:23 UTC] PHPMailer: CLIENT -> SERVER:                     <div style='text-align: center; margin: 25px 0;'>
+
+[18-Feb-2026 02:44:23 UTC] PHPMailer: CLIENT -> SERVER:                         <a href='https://maps.google.com' class='button'>View on Map</a>
+
+[18-Feb-2026 02:44:23 UTC] PHPMailer: CLIENT -> SERVER:                     </div>
+
+[18-Feb-2026 02:44:23 UTC] PHPMailer: CLIENT -> SERVER: 
+
+[18-Feb-2026 02:44:23 UTC] PHPMailer: CLIENT -> SERVER:                     <p>If you need to reschedule or cancel, please contact us at least 24 hours in advance.</p>
+
+[18-Feb-2026 02:44:23 UTC] PHPMailer: CLIENT -> SERVER:                     
+
+[18-Feb-2026 02:44:23 UTC] PHPMailer: CLIENT -> SERVER:                     <div class='footer'>
+
+[18-Feb-2026 02:44:23 UTC] PHPMailer: CLIENT -> SERVER:                         <p>Thank you for choosing our service!</p>
+
+[18-Feb-2026 02:44:23 UTC] PHPMailer: CLIENT -> SERVER:                         <p><small>This is an automated message, please do not reply directly to this email.</small></p>
+
+[18-Feb-2026 02:44:23 UTC] PHPMailer: CLIENT -> SERVER:                     </div>
+
+[18-Feb-2026 02:44:23 UTC] PHPMailer: CLIENT -> SERVER:                 </div>
+
+[18-Feb-2026 02:44:23 UTC] PHPMailer: CLIENT -> SERVER:             </div>
+
+[18-Feb-2026 02:44:23 UTC] PHPMailer: CLIENT -> SERVER:         </body>
+
+[18-Feb-2026 02:44:23 UTC] PHPMailer: CLIENT -> SERVER:         </html>
+
+[18-Feb-2026 02:44:23 UTC] PHPMailer: CLIENT -> SERVER: 
+
+[18-Feb-2026 02:44:23 UTC] PHPMailer: CLIENT -> SERVER: 
+
+[18-Feb-2026 02:44:23 UTC] PHPMailer: CLIENT -> SERVER: --b1=_bgKxT7jyPEUpgaVGIcGGqzmgYDkaMUa78UhLmhtUNw--
+
+[18-Feb-2026 02:44:23 UTC] PHPMailer: CLIENT -> SERVER: 
+
+[18-Feb-2026 02:44:23 UTC] PHPMailer: CLIENT -> SERVER: .
+
+[18-Feb-2026 02:44:24 UTC] PHPMailer: SERVER -> CLIENT: 250 2.0.0 OK  1771382662 5b1f17b1804b1-4834d5d78cfsm807826275e9.1 - gsmtp
+
+[18-Feb-2026 02:44:24 UTC] PHPMailer: CLIENT -> SERVER: QUIT
+
+[18-Feb-2026 02:44:24 UTC] PHPMailer: SERVER -> CLIENT: 221 2.0.0 closing connection 5b1f17b1804b1-4834d5d78cfsm807826275e9.1 - gsmtp
+
+[18-Feb-2026 02:44:24 UTC] Confirmation email sent to: baidoob7525@gmail.com
+[18-Feb-2026 02:44:24 UTC] Dashboard - Session data: Array
+(
+    [last_verification_code_register] => 794413
+    [pending_reset_user_id] => 1
+    [reset_code] => 530528
+    [reset_code_expires_at] => 2026-02-18 03:20:07
+    [last_verification_code_login] => 891028
+    [user_id] => 1
+)
+
+[18-Feb-2026 02:44:24 UTC] Dashboard - Booking success: Array
+(
+    [message] => Appointment booked successfully!
+    [appointment_number] => APP-260218-DB1B
+    [service] => Beard Trim
+    [datetime] => Feb 28, 2026 02:44
+    [price] => 30
+)
+
+[18-Feb-2026 02:45:04 UTC] Dashboard - Session data: Array
+(
+    [last_verification_code_register] => 794413
+    [pending_reset_user_id] => 1
+    [reset_code] => 530528
+    [reset_code_expires_at] => 2026-02-18 03:20:07
+    [last_verification_code_login] => 891028
+    [user_id] => 1
+)
+
+[18-Feb-2026 02:45:04 UTC] Dashboard - Booking success: 
+[18-Feb-2026 02:45:12 UTC] Dashboard - Session data: Array
+(
+    [last_verification_code_register] => 794413
+    [pending_reset_user_id] => 1
+    [reset_code] => 530528
+    [reset_code_expires_at] => 2026-02-18 03:20:07
+    [last_verification_code_login] => 891028
+    [user_id] => 1
+)
+
+[18-Feb-2026 02:45:12 UTC] Dashboard - Booking success: 
+[18-Feb-2026 02:45:33 UTC] Dashboard - Session data: Array
+(
+    [last_verification_code_register] => 794413
+    [pending_reset_user_id] => 1
+    [reset_code] => 530528
+    [reset_code_expires_at] => 2026-02-18 03:20:07
+    [last_verification_code_login] => 891028
+    [user_id] => 1
+)
+
+[18-Feb-2026 02:45:33 UTC] Dashboard - Booking success: 
+[18-Feb-2026 02:45:55 UTC] Dashboard - Session data: Array
+(
+    [last_verification_code_register] => 794413
+    [pending_reset_user_id] => 1
+    [reset_code] => 530528
+    [reset_code_expires_at] => 2026-02-18 03:20:07
+    [last_verification_code_login] => 891028
+    [user_id] => 1
+)
+
+[18-Feb-2026 02:45:55 UTC] Dashboard - Booking success: 
+[18-Feb-2026 02:46:17 UTC] Dashboard - Session data: Array
+(
+    [last_verification_code_register] => 794413
+    [pending_reset_user_id] => 1
+    [reset_code] => 530528
+    [reset_code_expires_at] => 2026-02-18 03:20:07
+    [last_verification_code_login] => 891028
+    [user_id] => 1
+)
+
+[18-Feb-2026 02:46:17 UTC] Dashboard - Booking success: 
+[18-Feb-2026 02:46:22 UTC] Dashboard - Session data: Array
+(
+    [last_verification_code_register] => 794413
+    [pending_reset_user_id] => 1
+    [reset_code] => 530528
+    [reset_code_expires_at] => 2026-02-18 03:20:07
+    [last_verification_code_login] => 891028
+    [user_id] => 1
+)
+
+[18-Feb-2026 02:46:22 UTC] Dashboard - Booking success: 
+[18-Feb-2026 03:55:36 Europe/Berlin] PHP Warning:  ini_set(): Session ini settings cannot be changed when a session is active in C:\xampp\htdocs\barber\config.php on line 10
+[18-Feb-2026 03:55:36 Europe/Berlin] PHP Warning:  ini_set(): Session ini settings cannot be changed when a session is active in C:\xampp\htdocs\barber\config.php on line 11
+[18-Feb-2026 03:55:36 Europe/Berlin] PHP Warning:  ini_set(): Session ini settings cannot be changed when a session is active in C:\xampp\htdocs\barber\config.php on line 12
+[18-Feb-2026 03:56:57 Europe/Berlin] PHP Warning:  ini_set(): Session ini settings cannot be changed when a session is active in C:\xampp\htdocs\barber\config.php on line 10
+[18-Feb-2026 03:56:57 Europe/Berlin] PHP Warning:  ini_set(): Session ini settings cannot be changed when a session is active in C:\xampp\htdocs\barber\config.php on line 11
+[18-Feb-2026 03:56:57 Europe/Berlin] PHP Warning:  ini_set(): Session ini settings cannot be changed when a session is active in C:\xampp\htdocs\barber\config.php on line 12
+[18-Feb-2026 03:57:17 Europe/Berlin] PHP Warning:  ini_set(): Session ini settings cannot be changed when a session is active in C:\xampp\htdocs\barber\config.php on line 10
+[18-Feb-2026 03:57:17 Europe/Berlin] PHP Warning:  ini_set(): Session ini settings cannot be changed when a session is active in C:\xampp\htdocs\barber\config.php on line 11
+[18-Feb-2026 03:57:17 Europe/Berlin] PHP Warning:  ini_set(): Session ini settings cannot be changed when a session is active in C:\xampp\htdocs\barber\config.php on line 12
+[18-Feb-2026 03:20:20 UTC] Dashboard - Session data: Array
+(
+    [flash_message] => Your password has been reset successfully. You can now log in with your new password.
+    [last_verification_code_login] => 005452
+    [user_id] => 5
+)
+
+[18-Feb-2026 03:20:20 UTC] Dashboard - Booking success: 
+[18-Feb-2026 03:20:49 UTC] PHPMailer: SERVER -> CLIENT: 220 smtp.gmail.com ESMTP ffacd0b85a97d-43796a5b4cdsm41817001f8f.8 - gsmtp
+
+[18-Feb-2026 03:20:49 UTC] PHPMailer: CLIENT -> SERVER: EHLO localhost
+
+[18-Feb-2026 03:20:49 UTC] PHPMailer: SERVER -> CLIENT: 250-smtp.gmail.com at your service, [129.122.56.170]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+[18-Feb-2026 03:20:49 UTC] PHPMailer: CLIENT -> SERVER: STARTTLS
+
+[18-Feb-2026 03:20:49 UTC] PHPMailer: SERVER -> CLIENT: 220 2.0.0 Ready to start TLS
+
+[18-Feb-2026 03:20:50 UTC] PHPMailer: CLIENT -> SERVER: EHLO localhost
+
+[18-Feb-2026 03:20:50 UTC] PHPMailer: SERVER -> CLIENT: 250-smtp.gmail.com at your service, [129.122.56.170]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+[18-Feb-2026 03:20:50 UTC] PHPMailer: CLIENT -> SERVER: AUTH LOGIN
+
+[18-Feb-2026 03:20:50 UTC] PHPMailer: SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+[18-Feb-2026 03:20:50 UTC] PHPMailer: CLIENT -> SERVER: [credentials hidden]
+[18-Feb-2026 03:20:50 UTC] PHPMailer: SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+[18-Feb-2026 03:20:50 UTC] PHPMailer: CLIENT -> SERVER: [credentials hidden]
+[18-Feb-2026 03:20:51 UTC] PHPMailer: SERVER -> CLIENT: 235 2.7.0 Accepted
+
+[18-Feb-2026 03:20:51 UTC] PHPMailer: CLIENT -> SERVER: MAIL FROM:<blessb0243@gmail.com>
+
+[18-Feb-2026 03:20:51 UTC] PHPMailer: SERVER -> CLIENT: 250 2.1.0 OK ffacd0b85a97d-43796a5b4cdsm41817001f8f.8 - gsmtp
+
+[18-Feb-2026 03:20:51 UTC] PHPMailer: CLIENT -> SERVER: RCPT TO:<marwolf423@gmail.com>
+
+[18-Feb-2026 03:20:51 UTC] PHPMailer: SERVER -> CLIENT: 250 2.1.5 OK ffacd0b85a97d-43796a5b4cdsm41817001f8f.8 - gsmtp
+
+[18-Feb-2026 03:20:51 UTC] PHPMailer: CLIENT -> SERVER: DATA
+
+[18-Feb-2026 03:20:51 UTC] PHPMailer: SERVER -> CLIENT: 354 Go ahead ffacd0b85a97d-43796a5b4cdsm41817001f8f.8 - gsmtp
+
+[18-Feb-2026 03:20:51 UTC] PHPMailer: CLIENT -> SERVER: Date: Wed, 18 Feb 2026 03:20:48 +0000
+
+[18-Feb-2026 03:20:51 UTC] PHPMailer: CLIENT -> SERVER: To: martin <marwolf423@gmail.com>
+
+[18-Feb-2026 03:20:51 UTC] PHPMailer: CLIENT -> SERVER: From: Your Barber Shop <blessb0243@gmail.com>
+
+[18-Feb-2026 03:20:51 UTC] PHPMailer: CLIENT -> SERVER: Reply-To: Your Barber Shop <blessb0243@gmail.com>
+
+[18-Feb-2026 03:20:51 UTC] PHPMailer: CLIENT -> SERVER: Subject: Appointment Confirmation #APP-260218-D28D
+
+[18-Feb-2026 03:20:51 UTC] PHPMailer: CLIENT -> SERVER: Message-ID: <QzMDAfDP9WJvr9XhXNoF3E9YKvsqDohsAt7PC4@localhost>
+
+[18-Feb-2026 03:20:51 UTC] PHPMailer: CLIENT -> SERVER: X-Mailer: PHPMailer 7.0.2 (https://github.com/PHPMailer/PHPMailer)
+
+[18-Feb-2026 03:20:51 UTC] PHPMailer: CLIENT -> SERVER: MIME-Version: 1.0
+
+[18-Feb-2026 03:20:51 UTC] PHPMailer: CLIENT -> SERVER: Content-Type: multipart/alternative;
+
+[18-Feb-2026 03:20:51 UTC] PHPMailer: CLIENT -> SERVER:  boundary="b1=_QzMDAfDP9WJvr9XhXNoF3E9YKvsqDohsAt7PC4"
+
+[18-Feb-2026 03:20:51 UTC] PHPMailer: CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+[18-Feb-2026 03:20:51 UTC] PHPMailer: CLIENT -> SERVER: 
+
+[18-Feb-2026 03:20:51 UTC] PHPMailer: CLIENT -> SERVER: --b1=_QzMDAfDP9WJvr9XhXNoF3E9YKvsqDohsAt7PC4
+
+[18-Feb-2026 03:20:51 UTC] PHPMailer: CLIENT -> SERVER: Content-Type: text/plain; charset=us-ascii
+
+[18-Feb-2026 03:20:51 UTC] PHPMailer: CLIENT -> SERVER: 
+
+[18-Feb-2026 03:20:51 UTC] PHPMailer: CLIENT -> SERVER: APPOINTMENT CONFIRMATION #APP-260218-D28D
+
+[18-Feb-2026 03:20:51 UTC] PHPMailer: CLIENT -> SERVER: 
+
+[18-Feb-2026 03:20:51 UTC] PHPMailer: CLIENT -> SERVER: Hello martin,
+
+[18-Feb-2026 03:20:51 UTC] PHPMailer: CLIENT -> SERVER: 
+
+[18-Feb-2026 03:20:51 UTC] PHPMailer: CLIENT -> SERVER: Thank you for booking with us! We're excited to see you soon.
+
+[18-Feb-2026 03:20:51 UTC] PHPMailer: CLIENT -> SERVER: 
+
+[18-Feb-2026 03:20:51 UTC] PHPMailer: CLIENT -> SERVER: APPOINTMENT DETAILS:
+
+[18-Feb-2026 03:20:51 UTC] PHPMailer: CLIENT -> SERVER: ------------------
+
+[18-Feb-2026 03:20:51 UTC] PHPMailer: CLIENT -> SERVER: Appointment #: APP-260218-D28D
+
+[18-Feb-2026 03:20:51 UTC] PHPMailer: CLIENT -> SERVER: Service: Beard Trim
+
+[18-Feb-2026 03:20:51 UTC] PHPMailer: CLIENT -> SERVER: Date: Thursday, February 19, 2026
+
+[18-Feb-2026 03:20:51 UTC] PHPMailer: CLIENT -> SERVER: Time: 6:20 AM
+
+[18-Feb-2026 03:20:51 UTC] PHPMailer: CLIENT -> SERVER: Duration: 30 minutes
+
+[18-Feb-2026 03:20:51 UTC] PHPMailer: CLIENT -> SERVER: Amount to Pay: GHS 30.00
+
+[18-Feb-2026 03:20:51 UTC] PHPMailer: CLIENT -> SERVER: 
+
+[18-Feb-2026 03:20:51 UTC] PHPMailer: CLIENT -> SERVER: LOCATION:
+
+[18-Feb-2026 03:20:51 UTC] PHPMailer: CLIENT -> SERVER: 123 Barber Street, Accra, Ghana
+
+[18-Feb-2026 03:20:51 UTC] PHPMailer: CLIENT -> SERVER: 
+
+[18-Feb-2026 03:20:51 UTC] PHPMailer: CLIENT -> SERVER: IMPORTANT:
+
+[18-Feb-2026 03:20:51 UTC] PHPMailer: CLIENT -> SERVER: - Please arrive 10 minutes before your scheduled time.
+
+[18-Feb-2026 03:20:51 UTC] PHPMailer: CLIENT -> SERVER: - If you need to reschedule or cancel, please contact us at least 24 hours in advance.
+
+[18-Feb-2026 03:20:51 UTC] PHPMailer: CLIENT -> SERVER: 
+
+[18-Feb-2026 03:20:51 UTC] PHPMailer: CLIENT -> SERVER: Thank you for choosing our service!
+
+[18-Feb-2026 03:20:51 UTC] PHPMailer: CLIENT -> SERVER: 
+
+[18-Feb-2026 03:20:51 UTC] PHPMailer: CLIENT -> SERVER: Best regards,
+
+[18-Feb-2026 03:20:51 UTC] PHPMailer: CLIENT -> SERVER: Your Barber Shop
+
+[18-Feb-2026 03:20:51 UTC] PHPMailer: CLIENT -> SERVER: 
+
+[18-Feb-2026 03:20:51 UTC] PHPMailer: CLIENT -> SERVER: --b1=_QzMDAfDP9WJvr9XhXNoF3E9YKvsqDohsAt7PC4
+
+[18-Feb-2026 03:20:51 UTC] PHPMailer: CLIENT -> SERVER: Content-Type: text/html; charset=iso-8859-1
+
+[18-Feb-2026 03:20:51 UTC] PHPMailer: CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+[18-Feb-2026 03:20:51 UTC] PHPMailer: CLIENT -> SERVER: 
+
+[18-Feb-2026 03:20:51 UTC] PHPMailer: CLIENT -> SERVER: 
+
+[18-Feb-2026 03:20:51 UTC] PHPMailer: CLIENT -> SERVER:         <html>
+
+[18-Feb-2026 03:20:51 UTC] PHPMailer: CLIENT -> SERVER:         <head>
+
+[18-Feb-2026 03:20:51 UTC] PHPMailer: CLIENT -> SERVER:             <style>
+
+[18-Feb-2026 03:20:51 UTC] PHPMailer: CLIENT -> SERVER:                 body { font-family: Arial, sans-serif; line-height: 1.6; color: #333; }
+
+[18-Feb-2026 03:20:51 UTC] PHPMailer: CLIENT -> SERVER:                 .container { max-width: 600px; margin: 0 auto; padding: 20px; }
+
+[18-Feb-2026 03:20:51 UTC] PHPMailer: CLIENT -> SERVER:                 .header { background: #111827; color: white; padding: 20px; text-align: center; border-radius: 5px 5px 0 0; }
+
+[18-Feb-2026 03:20:51 UTC] PHPMailer: CLIENT -> SERVER:                 .content { padding: 25px; background: #f9fafb; border: 1px solid #e5e7eb; border-top: none; }
+
+[18-Feb-2026 03:20:51 UTC] PHPMailer: CLIENT -> SERVER:                 .details { background: white; padding: 20px; margin: 15px 0; border-radius: 5px; box-shadow: 0 2px 4px rgba(0,0,0,0.05); }
+
+[18-Feb-2026 03:20:51 UTC] PHPMailer: CLIENT -> SERVER:                 .footer { margin-top: 25px; font-size: 0.9em; color: #6b7280; text-align: center; }
+
+[18-Feb-2026 03:20:51 UTC] PHPMailer: CLIENT -> SERVER:                 .button { display: inline-block; padding: 10px 20px; background: #111827; color: white; text-decoration: none; border-radius: 4px; margin: 15px 0; }
+
+[18-Feb-2026 03:20:51 UTC] PHPMailer: CLIENT -> SERVER:                 .highlight { color: #111827; font-weight: bold; }
+
+[18-Feb-2026 03:20:51 UTC] PHPMailer: CLIENT -> SERVER:             </style>
+
+[18-Feb-2026 03:20:51 UTC] PHPMailer: CLIENT -> SERVER:         </head>
+
+[18-Feb-2026 03:20:51 UTC] PHPMailer: CLIENT -> SERVER:         <body>
+
+[18-Feb-2026 03:20:51 UTC] PHPMailer: CLIENT -> SERVER:             <div class='container'>
+
+[18-Feb-2026 03:20:51 UTC] PHPMailer: CLIENT -> SERVER:                 <div class='header'>
+
+[18-Feb-2026 03:20:51 UTC] PHPMailer: CLIENT -> SERVER:                     <h2>✅ Appointment Confirmed!</h2>
+
+[18-Feb-2026 03:20:51 UTC] PHPMailer: CLIENT -> SERVER:                 </div>
+
+[18-Feb-2026 03:20:51 UTC] PHPMailer: CLIENT -> SERVER:                 <div class='content'>
+
+[18-Feb-2026 03:20:51 UTC] PHPMailer: CLIENT -> SERVER:                     <p>Hello martin,</p>
+
+[18-Feb-2026 03:20:51 UTC] PHPMailer: CLIENT -> SERVER:                     <p>Thank you for booking with us! We're excited to see you soon.</p>
+
+[18-Feb-2026 03:20:51 UTC] PHPMailer: CLIENT -> SERVER:                     
+
+[18-Feb-2026 03:20:51 UTC] PHPMailer: CLIENT -> SERVER:                     <div class='details'>
+
+[18-Feb-2026 03:20:51 UTC] PHPMailer: CLIENT -> SERVER:                         <h3 style='margin-top: 0; color: #111827;'>Appointment Details</h3>
+
+[18-Feb-2026 03:20:51 UTC] PHPMailer: CLIENT -> SERVER:                         <p><strong>Appointment #:</strong> APP-260218-D28D</p>
+
+[18-Feb-2026 03:20:51 UTC] PHPMailer: CLIENT -> SERVER:                         <p><strong>Service:</strong> Beard Trim</p>
+
+[18-Feb-2026 03:20:51 UTC] PHPMailer: CLIENT -> SERVER:                         <p><strong>Date:</strong> Thursday, February 19, 2026</p>
+
+[18-Feb-2026 03:20:51 UTC] PHPMailer: CLIENT -> SERVER:                         <p><strong>Time:</strong> 6:20 AM</p>
+
+[18-Feb-2026 03:20:51 UTC] PHPMailer: CLIENT -> SERVER:                         <p><strong>Duration:</strong> 30 minutes</p>
+
+[18-Feb-2026 03:20:51 UTC] PHPMailer: CLIENT -> SERVER:                         <p><strong>Amount to Pay:</strong> <span class='highlight'>GHS 30.00</span></p>
+
+[18-Feb-2026 03:20:51 UTC] PHPMailer: CLIENT -> SERVER:                     </div>
+
+[18-Feb-2026 03:20:51 UTC] PHPMailer: CLIENT -> SERVER: 
+
+[18-Feb-2026 03:20:51 UTC] PHPMailer: CLIENT -> SERVER:                     <p>We're located at: <strong>123 Barber Street, Accra, Ghana</strong></p>
+
+[18-Feb-2026 03:20:51 UTC] PHPMailer: CLIENT -> SERVER:                     <p>Please arrive 10 minutes before your scheduled time.</p>
+
+[18-Feb-2026 03:20:51 UTC] PHPMailer: CLIENT -> SERVER:                     
+
+[18-Feb-2026 03:20:51 UTC] PHPMailer: CLIENT -> SERVER:                     <div style='text-align: center; margin: 25px 0;'>
+
+[18-Feb-2026 03:20:51 UTC] PHPMailer: CLIENT -> SERVER:                         <a href='https://maps.google.com' class='button'>View on Map</a>
+
+[18-Feb-2026 03:20:51 UTC] PHPMailer: CLIENT -> SERVER:                     </div>
+
+[18-Feb-2026 03:20:51 UTC] PHPMailer: CLIENT -> SERVER: 
+
+[18-Feb-2026 03:20:51 UTC] PHPMailer: CLIENT -> SERVER:                     <p>If you need to reschedule or cancel, please contact us at least 24 hours in advance.</p>
+
+[18-Feb-2026 03:20:51 UTC] PHPMailer: CLIENT -> SERVER:                     
+
+[18-Feb-2026 03:20:51 UTC] PHPMailer: CLIENT -> SERVER:                     <div class='footer'>
+
+[18-Feb-2026 03:20:51 UTC] PHPMailer: CLIENT -> SERVER:                         <p>Thank you for choosing our service!</p>
+
+[18-Feb-2026 03:20:51 UTC] PHPMailer: CLIENT -> SERVER:                         <p><small>This is an automated message, please do not reply directly to this email.</small></p>
+
+[18-Feb-2026 03:20:51 UTC] PHPMailer: CLIENT -> SERVER:                     </div>
+
+[18-Feb-2026 03:20:51 UTC] PHPMailer: CLIENT -> SERVER:                 </div>
+
+[18-Feb-2026 03:20:51 UTC] PHPMailer: CLIENT -> SERVER:             </div>
+
+[18-Feb-2026 03:20:51 UTC] PHPMailer: CLIENT -> SERVER:         </body>
+
+[18-Feb-2026 03:20:51 UTC] PHPMailer: CLIENT -> SERVER:         </html>
+
+[18-Feb-2026 03:20:51 UTC] PHPMailer: CLIENT -> SERVER: 
+
+[18-Feb-2026 03:20:51 UTC] PHPMailer: CLIENT -> SERVER: 
+
+[18-Feb-2026 03:20:51 UTC] PHPMailer: CLIENT -> SERVER: --b1=_QzMDAfDP9WJvr9XhXNoF3E9YKvsqDohsAt7PC4--
+
+[18-Feb-2026 03:20:51 UTC] PHPMailer: CLIENT -> SERVER: 
+
+[18-Feb-2026 03:20:51 UTC] PHPMailer: CLIENT -> SERVER: .
+
+[18-Feb-2026 03:20:52 UTC] PHPMailer: SERVER -> CLIENT: 250 2.0.0 OK  1771384851 ffacd0b85a97d-43796a5b4cdsm41817001f8f.8 - gsmtp
+
+[18-Feb-2026 03:20:52 UTC] PHPMailer: CLIENT -> SERVER: QUIT
+
+[18-Feb-2026 03:20:52 UTC] PHPMailer: SERVER -> CLIENT: 221 2.0.0 closing connection ffacd0b85a97d-43796a5b4cdsm41817001f8f.8 - gsmtp
+
+[18-Feb-2026 03:20:52 UTC] Confirmation email sent to: marwolf423@gmail.com
+[18-Feb-2026 03:20:52 UTC] Dashboard - Session data: Array
+(
+    [flash_message] => Your password has been reset successfully. You can now log in with your new password.
+    [last_verification_code_login] => 005452
+    [user_id] => 5
+)
+
+[18-Feb-2026 03:20:52 UTC] Dashboard - Booking success: Array
+(
+    [message] => Appointment booked successfully!
+    [appointment_number] => APP-260218-D28D
+    [service] => Beard Trim
+    [datetime] => Feb 19, 2026 06:20
+    [price] => 30
+)
+
+[18-Feb-2026 03:22:50 UTC] Dashboard - Session data: Array
+(
+    [flash_message] => Your password has been reset successfully. You can now log in with your new password.
+    [last_verification_code_login] => 005452
+    [user_id] => 5
+)
+
+[18-Feb-2026 03:22:50 UTC] Dashboard - Booking success: 
+[18-Feb-2026 03:23:12 UTC] Dashboard - Session data: Array
+(
+    [flash_message] => Your password has been reset successfully. You can now log in with your new password.
+    [last_verification_code_login] => 005452
+    [user_id] => 5
+)
+
+[18-Feb-2026 03:23:12 UTC] Dashboard - Booking success: 
+[18-Feb-2026 03:23:42 UTC] Dashboard - Session data: Array
+(
+    [flash_message] => Your password has been reset successfully. You can now log in with your new password.
+    [last_verification_code_login] => 005452
+    [user_id] => 5
+)
+
+[18-Feb-2026 03:23:42 UTC] Dashboard - Booking success: 
+[18-Feb-2026 03:23:57 UTC] Dashboard - Session data: Array
+(
+    [flash_message] => Your password has been reset successfully. You can now log in with your new password.
+    [last_verification_code_login] => 005452
+    [user_id] => 5
+)
+
+[18-Feb-2026 03:23:57 UTC] Dashboard - Booking success: 
+[18-Feb-2026 03:24:12 UTC] Dashboard - Session data: Array
+(
+    [flash_message] => Your password has been reset successfully. You can now log in with your new password.
+    [last_verification_code_login] => 005452
+    [user_id] => 5
+)
+
+[18-Feb-2026 03:24:12 UTC] Dashboard - Booking success: 
+[18-Feb-2026 03:24:29 UTC] Dashboard - Session data: Array
+(
+    [flash_message] => Your password has been reset successfully. You can now log in with your new password.
+    [last_verification_code_login] => 005452
+    [user_id] => 5
+)
+
+[18-Feb-2026 03:24:29 UTC] Dashboard - Booking success: 
+[18-Feb-2026 03:24:32 UTC] Dashboard - Session data: Array
+(
+    [flash_message] => Your password has been reset successfully. You can now log in with your new password.
+    [last_verification_code_login] => 005452
+    [user_id] => 5
+)
+
+[18-Feb-2026 03:24:32 UTC] Dashboard - Booking success: 
+[18-Feb-2026 03:24:52 UTC] Dashboard - Session data: Array
+(
+    [flash_message] => Your password has been reset successfully. You can now log in with your new password.
+    [last_verification_code_login] => 005452
+    [user_id] => 5
+)
+
+[18-Feb-2026 03:24:52 UTC] Dashboard - Booking success: 
+[18-Feb-2026 03:25:58 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function send_verification_email() in C:\xampp\htdocs\barber\admin_login.php:35
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\barber\admin_login.php on line 35
+[18-Feb-2026 03:49:55 UTC] Dashboard - Session data: Array
+(
+    [last_verification_code_admin_login] => 337701
+    [user_id] => 4
+)
+
+[18-Feb-2026 03:49:55 UTC] Dashboard - Booking success: 
+[18-Feb-2026 03:50:19 UTC] Dashboard - Session data: Array
+(
+    [last_verification_code_admin_login] => 337701
+    [user_id] => 4
+)
+
+[18-Feb-2026 03:50:19 UTC] Dashboard - Booking success: 
+[18-Feb-2026 03:53:43 UTC] Dashboard - Session data: Array
+(
+    [last_verification_code_admin_login] => 337701
+    [user_id] => 4
+)
+
+[18-Feb-2026 03:53:43 UTC] Dashboard - Booking success: 
+[18-Feb-2026 03:54:00 UTC] Dashboard - Session data: Array
+(
+    [last_verification_code_admin_login] => 337701
+    [user_id] => 4
+)
+
+[18-Feb-2026 03:54:00 UTC] Dashboard - Booking success: 
+[18-Feb-2026 04:01:11 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function send_verification_email() in C:\xampp\htdocs\barber\register.php:53
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\barber\register.php on line 53
+[18-Feb-2026 04:45:48 UTC] PHP Fatal error:  Cannot redeclare send_email() (previously declared in C:\xampp\htdocs\barber\functions.php:26) in C:\xampp\htdocs\barber\includes\email_functions.php on line 122
+[18-Feb-2026 04:46:57 UTC] PHP Fatal error:  Cannot redeclare send_email() (previously declared in C:\xampp\htdocs\barber\functions.php:26) in C:\xampp\htdocs\barber\includes\email_functions.php on line 122
+[18-Feb-2026 04:47:00 UTC] PHP Fatal error:  Cannot redeclare send_email() (previously declared in C:\xampp\htdocs\barber\functions.php:26) in C:\xampp\htdocs\barber\includes\email_functions.php on line 122
+[18-Feb-2026 04:47:01 UTC] PHP Fatal error:  Cannot redeclare send_email() (previously declared in C:\xampp\htdocs\barber\functions.php:26) in C:\xampp\htdocs\barber\includes\email_functions.php on line 122
+[18-Feb-2026 04:47:02 UTC] PHP Fatal error:  Cannot redeclare send_email() (previously declared in C:\xampp\htdocs\barber\functions.php:26) in C:\xampp\htdocs\barber\includes\email_functions.php on line 122
+[18-Feb-2026 04:51:12 UTC] Dashboard - Session data: Array
+(
+    [last_verification_code_register] => 262615
+    [flash_message] => Registration verified. You can now log in.
+    [last_verification_code_login] => 080237
+    [user_id] => 1
+)
+
+[18-Feb-2026 04:51:12 UTC] Dashboard - Booking success: 
+[18-Feb-2026 11:26:58 UTC] PHP Warning:  Undefined variable $pdo in C:\xampp\htdocs\barber\index.php on line 14
+[18-Feb-2026 11:26:58 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in C:\xampp\htdocs\barber\index.php:14
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\barber\index.php on line 14
+[18-Feb-2026 14:11:52 UTC] Dashboard - Session data: Array
+(
+    [redirect_url] => /barber/book_appointment.php
+    [last_verification_code_login] => 217527
+    [user_id] => 7
+)
+
+[18-Feb-2026 14:11:52 UTC] Dashboard - Booking success: 
+[18-Feb-2026 14:12:18 UTC] PHPMailer: SERVER -> CLIENT: 220 smtp.gmail.com ESMTP ffacd0b85a97d-439567aad3csm7775135f8f.36 - gsmtp
+
+[18-Feb-2026 14:12:18 UTC] PHPMailer: CLIENT -> SERVER: EHLO localhost
+
+[18-Feb-2026 14:12:18 UTC] PHPMailer: SERVER -> CLIENT: 250-smtp.gmail.com at your service, [129.122.56.170]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+[18-Feb-2026 14:12:18 UTC] PHPMailer: CLIENT -> SERVER: STARTTLS
+
+[18-Feb-2026 14:12:19 UTC] PHPMailer: SERVER -> CLIENT: 220 2.0.0 Ready to start TLS
+
+[18-Feb-2026 14:12:20 UTC] PHPMailer: CLIENT -> SERVER: EHLO localhost
+
+[18-Feb-2026 14:12:20 UTC] PHPMailer: SERVER -> CLIENT: 250-smtp.gmail.com at your service, [129.122.56.170]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+[18-Feb-2026 14:12:20 UTC] PHPMailer: CLIENT -> SERVER: AUTH LOGIN
+
+[18-Feb-2026 14:12:20 UTC] PHPMailer: SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+[18-Feb-2026 14:12:20 UTC] PHPMailer: CLIENT -> SERVER: [credentials hidden]
+[18-Feb-2026 14:12:20 UTC] PHPMailer: SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+[18-Feb-2026 14:12:20 UTC] PHPMailer: CLIENT -> SERVER: [credentials hidden]
+[18-Feb-2026 14:12:21 UTC] PHPMailer: SERVER -> CLIENT: 235 2.7.0 Accepted
+
+[18-Feb-2026 14:12:21 UTC] PHPMailer: CLIENT -> SERVER: MAIL FROM:<blessb0243@gmail.com>
+
+[18-Feb-2026 14:12:21 UTC] PHPMailer: SERVER -> CLIENT: 250 2.1.0 OK ffacd0b85a97d-439567aad3csm7775135f8f.36 - gsmtp
+
+[18-Feb-2026 14:12:21 UTC] PHPMailer: CLIENT -> SERVER: RCPT TO:<ypee_baakop3@icloud.com>
+
+[18-Feb-2026 14:12:21 UTC] PHPMailer: SERVER -> CLIENT: 250 2.1.5 OK ffacd0b85a97d-439567aad3csm7775135f8f.36 - gsmtp
+
+[18-Feb-2026 14:12:21 UTC] PHPMailer: CLIENT -> SERVER: DATA
+
+[18-Feb-2026 14:12:21 UTC] PHPMailer: SERVER -> CLIENT: 354 Go ahead ffacd0b85a97d-439567aad3csm7775135f8f.36 - gsmtp
+
+[18-Feb-2026 14:12:21 UTC] PHPMailer: CLIENT -> SERVER: Date: Wed, 18 Feb 2026 14:12:18 +0000
+
+[18-Feb-2026 14:12:21 UTC] PHPMailer: CLIENT -> SERVER: To: vroy <ypee_baakop3@icloud.com>
+
+[18-Feb-2026 14:12:21 UTC] PHPMailer: CLIENT -> SERVER: From: Your Barber Shop <blessb0243@gmail.com>
+
+[18-Feb-2026 14:12:21 UTC] PHPMailer: CLIENT -> SERVER: Reply-To: Your Barber Shop <blessb0243@gmail.com>
+
+[18-Feb-2026 14:12:21 UTC] PHPMailer: CLIENT -> SERVER: Subject: Appointment Confirmation #APP-260218-663B
+
+[18-Feb-2026 14:12:21 UTC] PHPMailer: CLIENT -> SERVER: Message-ID: <sfEVeaEfTTwL7fbJendGTyxzhhpc8rA1tQqnEsZGlh8@localhost>
+
+[18-Feb-2026 14:12:21 UTC] PHPMailer: CLIENT -> SERVER: X-Mailer: PHPMailer 7.0.2 (https://github.com/PHPMailer/PHPMailer)
+
+[18-Feb-2026 14:12:21 UTC] PHPMailer: CLIENT -> SERVER: MIME-Version: 1.0
+
+[18-Feb-2026 14:12:21 UTC] PHPMailer: CLIENT -> SERVER: Content-Type: multipart/alternative;
+
+[18-Feb-2026 14:12:21 UTC] PHPMailer: CLIENT -> SERVER:  boundary="b1=_sfEVeaEfTTwL7fbJendGTyxzhhpc8rA1tQqnEsZGlh8"
+
+[18-Feb-2026 14:12:21 UTC] PHPMailer: CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+[18-Feb-2026 14:12:21 UTC] PHPMailer: CLIENT -> SERVER: 
+
+[18-Feb-2026 14:12:21 UTC] PHPMailer: CLIENT -> SERVER: --b1=_sfEVeaEfTTwL7fbJendGTyxzhhpc8rA1tQqnEsZGlh8
+
+[18-Feb-2026 14:12:21 UTC] PHPMailer: CLIENT -> SERVER: Content-Type: text/plain; charset=us-ascii
+
+[18-Feb-2026 14:12:21 UTC] PHPMailer: CLIENT -> SERVER: 
+
+[18-Feb-2026 14:12:21 UTC] PHPMailer: CLIENT -> SERVER: APPOINTMENT CONFIRMATION #APP-260218-663B
+
+[18-Feb-2026 14:12:21 UTC] PHPMailer: CLIENT -> SERVER: 
+
+[18-Feb-2026 14:12:21 UTC] PHPMailer: CLIENT -> SERVER: Hello vroy,
+
+[18-Feb-2026 14:12:21 UTC] PHPMailer: CLIENT -> SERVER: 
+
+[18-Feb-2026 14:12:21 UTC] PHPMailer: CLIENT -> SERVER: Thank you for booking with us! We're excited to see you soon.
+
+[18-Feb-2026 14:12:21 UTC] PHPMailer: CLIENT -> SERVER: 
+
+[18-Feb-2026 14:12:21 UTC] PHPMailer: CLIENT -> SERVER: APPOINTMENT DETAILS:
+
+[18-Feb-2026 14:12:21 UTC] PHPMailer: CLIENT -> SERVER: ------------------
+
+[18-Feb-2026 14:12:21 UTC] PHPMailer: CLIENT -> SERVER: Appointment #: APP-260218-663B
+
+[18-Feb-2026 14:12:21 UTC] PHPMailer: CLIENT -> SERVER: Service: vroy
+
+[18-Feb-2026 14:12:21 UTC] PHPMailer: CLIENT -> SERVER: Date: Wednesday, February 18, 2026
+
+[18-Feb-2026 14:12:21 UTC] PHPMailer: CLIENT -> SERVER: Time: 7:12 PM
+
+[18-Feb-2026 14:12:21 UTC] PHPMailer: CLIENT -> SERVER: Duration: 30 minutes
+
+[18-Feb-2026 14:12:21 UTC] PHPMailer: CLIENT -> SERVER: Amount to Pay: GHS 4.00
+
+[18-Feb-2026 14:12:21 UTC] PHPMailer: CLIENT -> SERVER: 
+
+[18-Feb-2026 14:12:21 UTC] PHPMailer: CLIENT -> SERVER: LOCATION:
+
+[18-Feb-2026 14:12:21 UTC] PHPMailer: CLIENT -> SERVER: 123 Barber Street, Accra, Ghana
+
+[18-Feb-2026 14:12:21 UTC] PHPMailer: CLIENT -> SERVER: 
+
+[18-Feb-2026 14:12:21 UTC] PHPMailer: CLIENT -> SERVER: IMPORTANT:
+
+[18-Feb-2026 14:12:21 UTC] PHPMailer: CLIENT -> SERVER: - Please arrive 10 minutes before your scheduled time.
+
+[18-Feb-2026 14:12:21 UTC] PHPMailer: CLIENT -> SERVER: - If you need to reschedule or cancel, please contact us at least 24 hours in advance.
+
+[18-Feb-2026 14:12:21 UTC] PHPMailer: CLIENT -> SERVER: 
+
+[18-Feb-2026 14:12:21 UTC] PHPMailer: CLIENT -> SERVER: Thank you for choosing our service!
+
+[18-Feb-2026 14:12:21 UTC] PHPMailer: CLIENT -> SERVER: 
+
+[18-Feb-2026 14:12:21 UTC] PHPMailer: CLIENT -> SERVER: Best regards,
+
+[18-Feb-2026 14:12:21 UTC] PHPMailer: CLIENT -> SERVER: Your Barber Shop
+
+[18-Feb-2026 14:12:21 UTC] PHPMailer: CLIENT -> SERVER: 
+
+[18-Feb-2026 14:12:21 UTC] PHPMailer: CLIENT -> SERVER: --b1=_sfEVeaEfTTwL7fbJendGTyxzhhpc8rA1tQqnEsZGlh8
+
+[18-Feb-2026 14:12:21 UTC] PHPMailer: CLIENT -> SERVER: Content-Type: text/html; charset=iso-8859-1
+
+[18-Feb-2026 14:12:21 UTC] PHPMailer: CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+[18-Feb-2026 14:12:21 UTC] PHPMailer: CLIENT -> SERVER: 
+
+[18-Feb-2026 14:12:21 UTC] PHPMailer: CLIENT -> SERVER: 
+
+[18-Feb-2026 14:12:21 UTC] PHPMailer: CLIENT -> SERVER:         <html>
+
+[18-Feb-2026 14:12:21 UTC] PHPMailer: CLIENT -> SERVER:         <head>
+
+[18-Feb-2026 14:12:21 UTC] PHPMailer: CLIENT -> SERVER:             <style>
+
+[18-Feb-2026 14:12:21 UTC] PHPMailer: CLIENT -> SERVER:                 body { font-family: Arial, sans-serif; line-height: 1.6; color: #333; }
+
+[18-Feb-2026 14:12:21 UTC] PHPMailer: CLIENT -> SERVER:                 .container { max-width: 600px; margin: 0 auto; padding: 20px; }
+
+[18-Feb-2026 14:12:21 UTC] PHPMailer: CLIENT -> SERVER:                 .header { background: #111827; color: white; padding: 20px; text-align: center; border-radius: 5px 5px 0 0; }
+
+[18-Feb-2026 14:12:21 UTC] PHPMailer: CLIENT -> SERVER:                 .content { padding: 25px; background: #f9fafb; border: 1px solid #e5e7eb; border-top: none; }
+
+[18-Feb-2026 14:12:21 UTC] PHPMailer: CLIENT -> SERVER:                 .details { background: white; padding: 20px; margin: 15px 0; border-radius: 5px; box-shadow: 0 2px 4px rgba(0,0,0,0.05); }
+
+[18-Feb-2026 14:12:21 UTC] PHPMailer: CLIENT -> SERVER:                 .footer { margin-top: 25px; font-size: 0.9em; color: #6b7280; text-align: center; }
+
+[18-Feb-2026 14:12:21 UTC] PHPMailer: CLIENT -> SERVER:                 .button { display: inline-block; padding: 10px 20px; background: #111827; color: white; text-decoration: none; border-radius: 4px; margin: 15px 0; }
+
+[18-Feb-2026 14:12:21 UTC] PHPMailer: CLIENT -> SERVER:                 .highlight { color: #111827; font-weight: bold; }
+
+[18-Feb-2026 14:12:21 UTC] PHPMailer: CLIENT -> SERVER:             </style>
+
+[18-Feb-2026 14:12:21 UTC] PHPMailer: CLIENT -> SERVER:         </head>
+
+[18-Feb-2026 14:12:21 UTC] PHPMailer: CLIENT -> SERVER:         <body>
+
+[18-Feb-2026 14:12:21 UTC] PHPMailer: CLIENT -> SERVER:             <div class='container'>
+
+[18-Feb-2026 14:12:21 UTC] PHPMailer: CLIENT -> SERVER:                 <div class='header'>
+
+[18-Feb-2026 14:12:21 UTC] PHPMailer: CLIENT -> SERVER:                     <h2>✅ Appointment Confirmed!</h2>
+
+[18-Feb-2026 14:12:21 UTC] PHPMailer: CLIENT -> SERVER:                 </div>
+
+[18-Feb-2026 14:12:21 UTC] PHPMailer: CLIENT -> SERVER:                 <div class='content'>
+
+[18-Feb-2026 14:12:21 UTC] PHPMailer: CLIENT -> SERVER:                     <p>Hello vroy,</p>
+
+[18-Feb-2026 14:12:21 UTC] PHPMailer: CLIENT -> SERVER:                     <p>Thank you for booking with us! We're excited to see you soon.</p>
+
+[18-Feb-2026 14:12:21 UTC] PHPMailer: CLIENT -> SERVER:                     
+
+[18-Feb-2026 14:12:21 UTC] PHPMailer: CLIENT -> SERVER:                     <div class='details'>
+
+[18-Feb-2026 14:12:21 UTC] PHPMailer: CLIENT -> SERVER:                         <h3 style='margin-top: 0; color: #111827;'>Appointment Details</h3>
+
+[18-Feb-2026 14:12:21 UTC] PHPMailer: CLIENT -> SERVER:                         <p><strong>Appointment #:</strong> APP-260218-663B</p>
+
+[18-Feb-2026 14:12:21 UTC] PHPMailer: CLIENT -> SERVER:                         <p><strong>Service:</strong> vroy</p>
+
+[18-Feb-2026 14:12:21 UTC] PHPMailer: CLIENT -> SERVER:                         <p><strong>Date:</strong> Wednesday, February 18, 2026</p>
+
+[18-Feb-2026 14:12:21 UTC] PHPMailer: CLIENT -> SERVER:                         <p><strong>Time:</strong> 7:12 PM</p>
+
+[18-Feb-2026 14:12:21 UTC] PHPMailer: CLIENT -> SERVER:                         <p><strong>Duration:</strong> 30 minutes</p>
+
+[18-Feb-2026 14:12:21 UTC] PHPMailer: CLIENT -> SERVER:                         <p><strong>Amount to Pay:</strong> <span class='highlight'>GHS 4.00</span></p>
+
+[18-Feb-2026 14:12:21 UTC] PHPMailer: CLIENT -> SERVER:                     </div>
+
+[18-Feb-2026 14:12:21 UTC] PHPMailer: CLIENT -> SERVER: 
+
+[18-Feb-2026 14:12:21 UTC] PHPMailer: CLIENT -> SERVER:                     <p>We're located at: <strong>123 Barber Street, Accra, Ghana</strong></p>
+
+[18-Feb-2026 14:12:21 UTC] PHPMailer: CLIENT -> SERVER:                     <p>Please arrive 10 minutes before your scheduled time.</p>
+
+[18-Feb-2026 14:12:21 UTC] PHPMailer: CLIENT -> SERVER:                     
+
+[18-Feb-2026 14:12:21 UTC] PHPMailer: CLIENT -> SERVER:                     <div style='text-align: center; margin: 25px 0;'>
+
+[18-Feb-2026 14:12:21 UTC] PHPMailer: CLIENT -> SERVER:                         <a href='https://maps.google.com' class='button'>View on Map</a>
+
+[18-Feb-2026 14:12:21 UTC] PHPMailer: CLIENT -> SERVER:                     </div>
+
+[18-Feb-2026 14:12:21 UTC] PHPMailer: CLIENT -> SERVER: 
+
+[18-Feb-2026 14:12:21 UTC] PHPMailer: CLIENT -> SERVER:                     <p>If you need to reschedule or cancel, please contact us at least 24 hours in advance.</p>
+
+[18-Feb-2026 14:12:21 UTC] PHPMailer: CLIENT -> SERVER:                     
+
+[18-Feb-2026 14:12:21 UTC] PHPMailer: CLIENT -> SERVER:                     <div class='footer'>
+
+[18-Feb-2026 14:12:21 UTC] PHPMailer: CLIENT -> SERVER:                         <p>Thank you for choosing our service!</p>
+
+[18-Feb-2026 14:12:21 UTC] PHPMailer: CLIENT -> SERVER:                         <p><small>This is an automated message, please do not reply directly to this email.</small></p>
+
+[18-Feb-2026 14:12:21 UTC] PHPMailer: CLIENT -> SERVER:                     </div>
+
+[18-Feb-2026 14:12:21 UTC] PHPMailer: CLIENT -> SERVER:                 </div>
+
+[18-Feb-2026 14:12:21 UTC] PHPMailer: CLIENT -> SERVER:             </div>
+
+[18-Feb-2026 14:12:21 UTC] PHPMailer: CLIENT -> SERVER:         </body>
+
+[18-Feb-2026 14:12:21 UTC] PHPMailer: CLIENT -> SERVER:         </html>
+
+[18-Feb-2026 14:12:21 UTC] PHPMailer: CLIENT -> SERVER: 
+
+[18-Feb-2026 14:12:21 UTC] PHPMailer: CLIENT -> SERVER: 
+
+[18-Feb-2026 14:12:21 UTC] PHPMailer: CLIENT -> SERVER: --b1=_sfEVeaEfTTwL7fbJendGTyxzhhpc8rA1tQqnEsZGlh8--
+
+[18-Feb-2026 14:12:21 UTC] PHPMailer: CLIENT -> SERVER: 
+
+[18-Feb-2026 14:12:21 UTC] PHPMailer: CLIENT -> SERVER: .
+
+[18-Feb-2026 14:12:22 UTC] PHPMailer: SERVER -> CLIENT: 250 2.0.0 OK  1771423943 ffacd0b85a97d-439567aad3csm7775135f8f.36 - gsmtp
+
+[18-Feb-2026 14:12:22 UTC] PHPMailer: CLIENT -> SERVER: QUIT
+
+[18-Feb-2026 14:12:22 UTC] PHPMailer: SERVER -> CLIENT: 221 2.0.0 closing connection ffacd0b85a97d-439567aad3csm7775135f8f.36 - gsmtp
+
+[18-Feb-2026 14:12:22 UTC] Confirmation email sent to: ypee_baakop3@icloud.com
+[18-Feb-2026 14:12:22 UTC] Dashboard - Session data: Array
+(
+    [redirect_url] => /barber/book_appointment.php
+    [last_verification_code_login] => 217527
+    [user_id] => 7
+)
+
+[18-Feb-2026 14:12:22 UTC] Dashboard - Booking success: Array
+(
+    [message] => Appointment booked successfully!
+    [appointment_number] => APP-260218-663B
+    [service] => vroy
+    [datetime] => Feb 18, 2026 19:12
+    [price] => 4
+)
+
+[18-Feb-2026 14:12:57 UTC] Dashboard - Session data: Array
+(
+    [redirect_url] => /barber/book_appointment.php
+    [last_verification_code_login] => 217527
+    [user_id] => 7
+)
+
+[18-Feb-2026 14:12:57 UTC] Dashboard - Booking success: 
+[18-Feb-2026 14:13:03 UTC] Dashboard - Session data: Array
+(
+    [redirect_url] => /barber/book_appointment.php
+    [last_verification_code_login] => 217527
+    [user_id] => 7
+)
+
+[18-Feb-2026 14:13:03 UTC] Dashboard - Booking success: 
+[18-Feb-2026 14:13:11 UTC] Dashboard - Session data: Array
+(
+    [redirect_url] => /barber/book_appointment.php
+    [last_verification_code_login] => 217527
+    [user_id] => 7
+)
+
+[18-Feb-2026 14:13:11 UTC] Dashboard - Booking success: 
+[18-Feb-2026 14:13:22 UTC] Dashboard - Session data: Array
+(
+    [redirect_url] => /barber/book_appointment.php
+    [last_verification_code_login] => 217527
+    [user_id] => 7
+)
+
+[18-Feb-2026 14:13:22 UTC] Dashboard - Booking success: 
+[18-Feb-2026 14:13:32 UTC] Dashboard - Session data: Array
+(
+    [redirect_url] => /barber/book_appointment.php
+    [last_verification_code_login] => 217527
+    [user_id] => 7
+)
+
+[18-Feb-2026 14:13:32 UTC] Dashboard - Booking success: 
+[18-Feb-2026 14:13:43 UTC] Dashboard - Session data: Array
+(
+    [redirect_url] => /barber/book_appointment.php
+    [last_verification_code_login] => 217527
+    [user_id] => 7
+)
+
+[18-Feb-2026 14:13:43 UTC] Dashboard - Booking success: 
+[18-Feb-2026 14:14:03 UTC] Dashboard - Session data: Array
+(
+    [redirect_url] => /barber/book_appointment.php
+    [last_verification_code_login] => 217527
+    [user_id] => 7
+)
+
+[18-Feb-2026 14:14:03 UTC] Dashboard - Booking success: 
+[18-Feb-2026 14:28:49 UTC] Dashboard - Session data: Array
+(
+    [redirect_url] => /barber/book_appointment.php
+    [last_verification_code_login] => 217527
+    [user_id] => 7
+)
+
+[18-Feb-2026 14:28:49 UTC] Dashboard - Booking success: 
+[18-Feb-2026 14:31:18 UTC] Dashboard - Session data: Array
+(
+    [last_verification_code_admin_login] => 063825
+    [user_id] => 4
+)
+
+[18-Feb-2026 14:31:18 UTC] Dashboard - Booking success: 
+[18-Feb-2026 16:18:02 UTC] PHP Warning:  Undefined variable $pdo in C:\xampp\htdocs\barber\services.php on line 9
+[18-Feb-2026 16:18:02 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in C:\xampp\htdocs\barber\services.php:9
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\barber\services.php on line 9
+[18-Feb-2026 16:19:42 UTC] PHP Warning:  Undefined array key "description" in C:\xampp\htdocs\barber\services.php on line 63
+[18-Feb-2026 16:19:42 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\barber\services.php on line 63
+[18-Feb-2026 16:19:42 UTC] PHP Warning:  Undefined array key "price" in C:\xampp\htdocs\barber\services.php on line 64
+[18-Feb-2026 16:19:42 UTC] PHP Deprecated:  number_format(): Passing null to parameter #1 ($num) of type float is deprecated in C:\xampp\htdocs\barber\services.php on line 64
+[18-Feb-2026 16:19:42 UTC] PHP Warning:  Undefined array key "description" in C:\xampp\htdocs\barber\services.php on line 63
+[18-Feb-2026 16:19:42 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\barber\services.php on line 63
+[18-Feb-2026 16:19:42 UTC] PHP Warning:  Undefined array key "price" in C:\xampp\htdocs\barber\services.php on line 64
+[18-Feb-2026 16:19:42 UTC] PHP Deprecated:  number_format(): Passing null to parameter #1 ($num) of type float is deprecated in C:\xampp\htdocs\barber\services.php on line 64
+[18-Feb-2026 16:19:42 UTC] PHP Warning:  Undefined array key "description" in C:\xampp\htdocs\barber\services.php on line 63
+[18-Feb-2026 16:19:42 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\barber\services.php on line 63
+[18-Feb-2026 16:19:42 UTC] PHP Warning:  Undefined array key "price" in C:\xampp\htdocs\barber\services.php on line 64
+[18-Feb-2026 16:19:42 UTC] PHP Deprecated:  number_format(): Passing null to parameter #1 ($num) of type float is deprecated in C:\xampp\htdocs\barber\services.php on line 64
+[18-Feb-2026 16:19:42 UTC] PHP Warning:  Undefined array key "description" in C:\xampp\htdocs\barber\services.php on line 63
+[18-Feb-2026 16:19:42 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\barber\services.php on line 63
+[18-Feb-2026 16:19:42 UTC] PHP Warning:  Undefined array key "price" in C:\xampp\htdocs\barber\services.php on line 64
+[18-Feb-2026 16:19:42 UTC] PHP Deprecated:  number_format(): Passing null to parameter #1 ($num) of type float is deprecated in C:\xampp\htdocs\barber\services.php on line 64
+[18-Feb-2026 16:21:13 UTC] Error fetching services: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'description' in 'field list'
+[18-Feb-2026 16:23:26 UTC] Error fetching services: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'description' in 'field list'
+[18-Feb-2026 16:25:47 UTC] Error fetching services: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'description' in 'field list'
+[18-Feb-2026 21:01:26 UTC] Error fetching services: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'description' in 'field list'
+[18-Feb-2026 21:17:10 UTC] Dashboard - Session data: Array
+(
+    [last_verification_code_login] => 613788
+    [user_id] => 7
+)
+
+[18-Feb-2026 21:17:10 UTC] Dashboard - Booking success: 

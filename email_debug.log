@@ -1,0 +1,1373 @@
+2: SERVER -> CLIENT: 220 smtp.gmail.com ESMTP 5b1f17b1804b1-483983cfbadsm4782535e9.18 - gsmtp
+
+1: CLIENT -> SERVER: EHLO localhost
+
+2: SERVER -> CLIENT: 250-smtp.gmail.com at your service, [129.122.56.170]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+1: CLIENT -> SERVER: STARTTLS
+
+2: SERVER -> CLIENT: 220 2.0.0 Ready to start TLS
+
+1: CLIENT -> SERVER: EHLO localhost
+
+2: SERVER -> CLIENT: 250-smtp.gmail.com at your service, [129.122.56.170]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+1: CLIENT -> SERVER: AUTH LOGIN
+
+2: SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+1: CLIENT -> SERVER: [credentials hidden]
+2: SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+1: CLIENT -> SERVER: [credentials hidden]
+2: SERVER -> CLIENT: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials 5b1f17b1804b1-483983cfbadsm4782535e9.18 - gsmtp
+
+1: SMTP ERROR: Password command failed: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials 5b1f17b1804b1-483983cfbadsm4782535e9.18 - gsmtp
+
+2: SMTP Error: Could not authenticate.
+1: CLIENT -> SERVER: QUIT
+
+2: SERVER -> CLIENT: 221 2.0.0 closing connection 5b1f17b1804b1-483983cfbadsm4782535e9.18 - gsmtp
+
+2: SMTP Error: Could not authenticate.
+2: Invalid address:  (From): 
+2: Invalid address:  (From): 
+2: Invalid address:  (From): 
+2: Invalid address:  (From): 
+2: Invalid address:  (From): 
+2: SERVER -> CLIENT: 220 smtp.gmail.com ESMTP ffacd0b85a97d-43796a5b2d1sm41013220f8f.4 - gsmtp
+
+1: CLIENT -> SERVER: EHLO localhost
+
+2: SERVER -> CLIENT: 250-smtp.gmail.com at your service, [129.122.56.170]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+1: CLIENT -> SERVER: STARTTLS
+
+2: SERVER -> CLIENT: 220 2.0.0 Ready to start TLS
+
+1: CLIENT -> SERVER: EHLO localhost
+
+2: SERVER -> CLIENT: 250-smtp.gmail.com at your service, [129.122.56.170]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+1: CLIENT -> SERVER: AUTH LOGIN
+
+2: SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+1: CLIENT -> SERVER: [credentials hidden]
+2: SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+1: CLIENT -> SERVER: [credentials hidden]
+2: SERVER -> CLIENT: 235 2.7.0 Accepted
+
+1: CLIENT -> SERVER: MAIL FROM:<blessb0243@gmail.com>
+
+2: SERVER -> CLIENT: 250 2.1.0 OK ffacd0b85a97d-43796a5b2d1sm41013220f8f.4 - gsmtp
+
+1: CLIENT -> SERVER: RCPT TO:<baidoob7525@gmail.com>
+
+2: SERVER -> CLIENT: 250 2.1.5 OK ffacd0b85a97d-43796a5b2d1sm41013220f8f.4 - gsmtp
+
+1: CLIENT -> SERVER: DATA
+
+2: SERVER -> CLIENT: 354 Go ahead ffacd0b85a97d-43796a5b2d1sm41013220f8f.4 - gsmtp
+
+1: CLIENT -> SERVER: Date: Wed, 18 Feb 2026 01:45:39 +0100
+
+1: CLIENT -> SERVER: To: Blessing Baidoo <baidoob7525@gmail.com>
+
+1: CLIENT -> SERVER: From: Your Barber Shop <blessb0243@gmail.com>
+
+1: CLIENT -> SERVER: Reply-To: Your Barber Shop <blessb0243@gmail.com>
+
+1: CLIENT -> SERVER: Subject: Appointment Confirmation #APP-260218-E0D8
+
+1: CLIENT -> SERVER: Message-ID: <qtTqjz9LbOavM29lIYmoKuEOH5RmrzZx7G6JhEQu24@localhost>
+
+1: CLIENT -> SERVER: X-Mailer: PHPMailer 7.0.2 (https://github.com/PHPMailer/PHPMailer)
+
+1: CLIENT -> SERVER: MIME-Version: 1.0
+
+1: CLIENT -> SERVER: Content-Type: multipart/alternative;
+
+1: CLIENT -> SERVER:  boundary="b1=_qtTqjz9LbOavM29lIYmoKuEOH5RmrzZx7G6JhEQu24"
+
+1: CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+1: CLIENT -> SERVER: 
+
+1: CLIENT -> SERVER: --b1=_qtTqjz9LbOavM29lIYmoKuEOH5RmrzZx7G6JhEQu24
+
+1: CLIENT -> SERVER: Content-Type: text/plain; charset=us-ascii
+
+1: CLIENT -> SERVER: 
+
+1: CLIENT -> SERVER: APPOINTMENT CONFIRMATION #APP-260218-E0D8
+
+1: CLIENT -> SERVER: 
+
+1: CLIENT -> SERVER: Hello Blessing Baidoo,
+
+1: CLIENT -> SERVER: 
+
+1: CLIENT -> SERVER: Thank you for booking with us! We're excited to see you soon.
+
+1: CLIENT -> SERVER: 
+
+1: CLIENT -> SERVER: APPOINTMENT DETAILS:
+
+1: CLIENT -> SERVER: ------------------
+
+1: CLIENT -> SERVER: Appointment #: APP-260218-E0D8
+
+1: CLIENT -> SERVER: Service: Haircut & Beard
+
+1: CLIENT -> SERVER: Date: Friday, February 27, 2026
+
+1: CLIENT -> SERVER: Time: 5:50 AM
+
+1: CLIENT -> SERVER: Duration: 30 minutes
+
+1: CLIENT -> SERVER: Amount to Pay: GHS 70.00
+
+1: CLIENT -> SERVER: 
+
+1: CLIENT -> SERVER: LOCATION:
+
+1: CLIENT -> SERVER: 123 Barber Street, Accra, Ghana
+
+1: CLIENT -> SERVER: 
+
+1: CLIENT -> SERVER: IMPORTANT:
+
+1: CLIENT -> SERVER: - Please arrive 10 minutes before your scheduled time.
+
+1: CLIENT -> SERVER: - If you need to reschedule or cancel, please contact us at least 24 hours in advance.
+
+1: CLIENT -> SERVER: 
+
+1: CLIENT -> SERVER: Thank you for choosing our service!
+
+1: CLIENT -> SERVER: 
+
+1: CLIENT -> SERVER: Best regards,
+
+1: CLIENT -> SERVER: Your Barber Shop
+
+1: CLIENT -> SERVER: 
+
+1: CLIENT -> SERVER: --b1=_qtTqjz9LbOavM29lIYmoKuEOH5RmrzZx7G6JhEQu24
+
+1: CLIENT -> SERVER: Content-Type: text/html; charset=iso-8859-1
+
+1: CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+1: CLIENT -> SERVER: 
+
+1: CLIENT -> SERVER: 
+
+1: CLIENT -> SERVER:         <html>
+
+1: CLIENT -> SERVER:         <head>
+
+1: CLIENT -> SERVER:             <style>
+
+1: CLIENT -> SERVER:                 body { font-family: Arial, sans-serif; line-height: 1.6; color: #333; }
+
+1: CLIENT -> SERVER:                 .container { max-width: 600px; margin: 0 auto; padding: 20px; }
+
+1: CLIENT -> SERVER:                 .header { background: #111827; color: white; padding: 20px; text-align: center; border-radius: 5px 5px 0 0; }
+
+1: CLIENT -> SERVER:                 .content { padding: 25px; background: #f9fafb; border: 1px solid #e5e7eb; border-top: none; }
+
+1: CLIENT -> SERVER:                 .details { background: white; padding: 20px; margin: 15px 0; border-radius: 5px; box-shadow: 0 2px 4px rgba(0,0,0,0.05); }
+
+1: CLIENT -> SERVER:                 .footer { margin-top: 25px; font-size: 0.9em; color: #6b7280; text-align: center; }
+
+1: CLIENT -> SERVER:                 .button { display: inline-block; padding: 10px 20px; background: #111827; color: white; text-decoration: none; border-radius: 4px; margin: 15px 0; }
+
+1: CLIENT -> SERVER:                 .highlight { color: #111827; font-weight: bold; }
+
+1: CLIENT -> SERVER:             </style>
+
+1: CLIENT -> SERVER:         </head>
+
+1: CLIENT -> SERVER:         <body>
+
+1: CLIENT -> SERVER:             <div class='container'>
+
+1: CLIENT -> SERVER:                 <div class='header'>
+
+1: CLIENT -> SERVER:                     <h2>✅ Appointment Confirmed!</h2>
+
+1: CLIENT -> SERVER:                 </div>
+
+1: CLIENT -> SERVER:                 <div class='content'>
+
+1: CLIENT -> SERVER:                     <p>Hello Blessing Baidoo,</p>
+
+1: CLIENT -> SERVER:                     <p>Thank you for booking with us! We're excited to see you soon.</p>
+
+1: CLIENT -> SERVER:                     
+
+1: CLIENT -> SERVER:                     <div class='details'>
+
+1: CLIENT -> SERVER:                         <h3 style='margin-top: 0; color: #111827;'>Appointment Details</h3>
+
+1: CLIENT -> SERVER:                         <p><strong>Appointment #:</strong> APP-260218-E0D8</p>
+
+1: CLIENT -> SERVER:                         <p><strong>Service:</strong> Haircut &amp; Beard</p>
+
+1: CLIENT -> SERVER:                         <p><strong>Date:</strong> Friday, February 27, 2026</p>
+
+1: CLIENT -> SERVER:                         <p><strong>Time:</strong> 5:50 AM</p>
+
+1: CLIENT -> SERVER:                         <p><strong>Duration:</strong> 30 minutes</p>
+
+1: CLIENT -> SERVER:                         <p><strong>Amount to Pay:</strong> <span class='highlight'>GHS 70.00</span></p>
+
+1: CLIENT -> SERVER:                     </div>
+
+1: CLIENT -> SERVER: 
+
+1: CLIENT -> SERVER:                     <p>We're located at: <strong>123 Barber Street, Accra, Ghana</strong></p>
+
+1: CLIENT -> SERVER:                     <p>Please arrive 10 minutes before your scheduled time.</p>
+
+1: CLIENT -> SERVER:                     
+
+1: CLIENT -> SERVER:                     <div style='text-align: center; margin: 25px 0;'>
+
+1: CLIENT -> SERVER:                         <a href='https://maps.google.com' class='button'>View on Map</a>
+
+1: CLIENT -> SERVER:                     </div>
+
+1: CLIENT -> SERVER: 
+
+1: CLIENT -> SERVER:                     <p>If you need to reschedule or cancel, please contact us at least 24 hours in advance.</p>
+
+1: CLIENT -> SERVER:                     
+
+1: CLIENT -> SERVER:                     <div class='footer'>
+
+1: CLIENT -> SERVER:                         <p>Thank you for choosing our service!</p>
+
+1: CLIENT -> SERVER:                         <p><small>This is an automated message, please do not reply directly to this email.</small></p>
+
+1: CLIENT -> SERVER:                     </div>
+
+1: CLIENT -> SERVER:                 </div>
+
+1: CLIENT -> SERVER:             </div>
+
+1: CLIENT -> SERVER:         </body>
+
+1: CLIENT -> SERVER:         </html>
+
+1: CLIENT -> SERVER: 
+
+1: CLIENT -> SERVER: 
+
+1: CLIENT -> SERVER: --b1=_qtTqjz9LbOavM29lIYmoKuEOH5RmrzZx7G6JhEQu24--
+
+1: CLIENT -> SERVER: 
+
+1: CLIENT -> SERVER: .
+
+2: SERVER -> CLIENT: 250 2.0.0 OK  1771375542 ffacd0b85a97d-43796a5b2d1sm41013220f8f.4 - gsmtp
+
+1: CLIENT -> SERVER: QUIT
+
+2: SERVER -> CLIENT: 221 2.0.0 closing connection ffacd0b85a97d-43796a5b2d1sm41013220f8f.4 - gsmtp
+
+2: SERVER -> CLIENT: 220 smtp.gmail.com ESMTP 5b1f17b1804b1-4834d5ebd34sm596319825e9.7 - gsmtp
+
+1: CLIENT -> SERVER: EHLO localhost
+
+2: SERVER -> CLIENT: 250-smtp.gmail.com at your service, [129.122.56.170]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+1: CLIENT -> SERVER: STARTTLS
+
+2: SERVER -> CLIENT: 220 2.0.0 Ready to start TLS
+
+1: CLIENT -> SERVER: EHLO localhost
+
+2: SERVER -> CLIENT: 250-smtp.gmail.com at your service, [129.122.56.170]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+1: CLIENT -> SERVER: AUTH LOGIN
+
+2: SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+1: CLIENT -> SERVER: [credentials hidden]
+2: SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+1: CLIENT -> SERVER: [credentials hidden]
+2: SERVER -> CLIENT: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials 5b1f17b1804b1-4834d5ebd34sm596319825e9.7 - gsmtp
+
+1: SMTP ERROR: Password command failed: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials 5b1f17b1804b1-4834d5ebd34sm596319825e9.7 - gsmtp
+
+2: SMTP Error: Could not authenticate.
+1: CLIENT -> SERVER: QUIT
+
+2: SERVER -> CLIENT: 221 2.0.0 closing connection 5b1f17b1804b1-4834d5ebd34sm596319825e9.7 - gsmtp
+
+2: SMTP Error: Could not authenticate.
+2: SERVER -> CLIENT: 220 smtp.gmail.com ESMTP 5b1f17b1804b1-48370ac3564sm331256375e9.5 - gsmtp
+
+1: CLIENT -> SERVER: EHLO localhost
+
+2: SERVER -> CLIENT: 250-smtp.gmail.com at your service, [129.122.56.170]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+1: CLIENT -> SERVER: STARTTLS
+
+2: SERVER -> CLIENT: 220 2.0.0 Ready to start TLS
+
+1: CLIENT -> SERVER: EHLO localhost
+
+2: SERVER -> CLIENT: 250-smtp.gmail.com at your service, [129.122.56.170]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+1: CLIENT -> SERVER: AUTH LOGIN
+
+2: SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+1: CLIENT -> SERVER: [credentials hidden]
+2: SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+1: CLIENT -> SERVER: [credentials hidden]
+2: SERVER -> CLIENT: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials 5b1f17b1804b1-48370ac3564sm331256375e9.5 - gsmtp
+
+1: SMTP ERROR: Password command failed: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials 5b1f17b1804b1-48370ac3564sm331256375e9.5 - gsmtp
+
+2: SMTP Error: Could not authenticate.
+1: CLIENT -> SERVER: QUIT
+
+2: SERVER -> CLIENT: 221 2.0.0 closing connection 5b1f17b1804b1-48370ac3564sm331256375e9.5 - gsmtp
+
+2: SMTP Error: Could not authenticate.
+2: SERVER -> CLIENT: 220 smtp.gmail.com ESMTP ffacd0b85a97d-439567aad3csm3778106f8f.36 - gsmtp
+
+1: CLIENT -> SERVER: EHLO localhost
+
+2: SERVER -> CLIENT: 250-smtp.gmail.com at your service, [129.122.56.170]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+1: CLIENT -> SERVER: STARTTLS
+
+2: SERVER -> CLIENT: 220 2.0.0 Ready to start TLS
+
+1: CLIENT -> SERVER: EHLO localhost
+
+2: SERVER -> CLIENT: 250-smtp.gmail.com at your service, [129.122.56.170]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+1: CLIENT -> SERVER: AUTH LOGIN
+
+2: SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+1: CLIENT -> SERVER: [credentials hidden]
+2: SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+1: CLIENT -> SERVER: [credentials hidden]
+2: SERVER -> CLIENT: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials ffacd0b85a97d-439567aad3csm3778106f8f.36 - gsmtp
+
+1: SMTP ERROR: Password command failed: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials ffacd0b85a97d-439567aad3csm3778106f8f.36 - gsmtp
+
+2: SMTP Error: Could not authenticate.
+1: CLIENT -> SERVER: QUIT
+
+2: SERVER -> CLIENT: 221 2.0.0 closing connection ffacd0b85a97d-439567aad3csm3778106f8f.36 - gsmtp
+
+2: SMTP Error: Could not authenticate.
+2: SERVER -> CLIENT: 220 smtp.gmail.com ESMTP ffacd0b85a97d-43796abc21dsm39923232f8f.20 - gsmtp
+
+1: CLIENT -> SERVER: EHLO localhost
+
+2: SERVER -> CLIENT: 250-smtp.gmail.com at your service, [129.122.56.170]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+1: CLIENT -> SERVER: STARTTLS
+
+2: SERVER -> CLIENT: 220 2.0.0 Ready to start TLS
+
+1: CLIENT -> SERVER: EHLO localhost
+
+2: SERVER -> CLIENT: 250-smtp.gmail.com at your service, [129.122.56.170]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+1: CLIENT -> SERVER: AUTH LOGIN
+
+2: SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+1: CLIENT -> SERVER: [credentials hidden]
+2: SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+1: CLIENT -> SERVER: [credentials hidden]
+2: SERVER -> CLIENT: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials ffacd0b85a97d-43796abc21dsm39923232f8f.20 - gsmtp
+
+1: SMTP ERROR: Password command failed: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials ffacd0b85a97d-43796abc21dsm39923232f8f.20 - gsmtp
+
+2: SMTP Error: Could not authenticate.
+1: CLIENT -> SERVER: QUIT
+
+2: SERVER -> CLIENT: 221 2.0.0 closing connection ffacd0b85a97d-43796abc21dsm39923232f8f.20 - gsmtp
+
+2: SMTP Error: Could not authenticate.
+2: SERVER -> CLIENT: 220 smtp.gmail.com ESMTP 5b1f17b1804b1-4834d482480sm587690585e9.0 - gsmtp
+
+1: CLIENT -> SERVER: EHLO localhost
+
+2: SERVER -> CLIENT: 250-smtp.gmail.com at your service, [129.122.56.170]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+1: CLIENT -> SERVER: STARTTLS
+
+2: SERVER -> CLIENT: 220 2.0.0 Ready to start TLS
+
+1: CLIENT -> SERVER: EHLO localhost
+
+2: SERVER -> CLIENT: 250-smtp.gmail.com at your service, [129.122.56.170]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+1: CLIENT -> SERVER: AUTH LOGIN
+
+2: SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+1: CLIENT -> SERVER: [credentials hidden]
+2: SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+1: CLIENT -> SERVER: [credentials hidden]
+2: SERVER -> CLIENT: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials 5b1f17b1804b1-4834d482480sm587690585e9.0 - gsmtp
+
+1: SMTP ERROR: Password command failed: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials 5b1f17b1804b1-4834d482480sm587690585e9.0 - gsmtp
+
+2: SMTP Error: Could not authenticate.
+1: CLIENT -> SERVER: QUIT
+
+2: SERVER -> CLIENT: 221 2.0.0 closing connection 5b1f17b1804b1-4834d482480sm587690585e9.0 - gsmtp
+
+2: SMTP Error: Could not authenticate.
+2: SERVER -> CLIENT: 220 smtp.gmail.com ESMTP ffacd0b85a97d-437969fd36dsm40119633f8f.0 - gsmtp
+
+1: CLIENT -> SERVER: EHLO localhost
+
+2: SERVER -> CLIENT: 250-smtp.gmail.com at your service, [129.122.56.170]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+1: CLIENT -> SERVER: STARTTLS
+
+2: SERVER -> CLIENT: 220 2.0.0 Ready to start TLS
+
+1: CLIENT -> SERVER: EHLO localhost
+
+2: SERVER -> CLIENT: 250-smtp.gmail.com at your service, [129.122.56.170]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+1: CLIENT -> SERVER: AUTH LOGIN
+
+2: SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+1: CLIENT -> SERVER: [credentials hidden]
+2: SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+1: CLIENT -> SERVER: [credentials hidden]
+2: SERVER -> CLIENT: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials ffacd0b85a97d-437969fd36dsm40119633f8f.0 - gsmtp
+
+1: SMTP ERROR: Password command failed: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials ffacd0b85a97d-437969fd36dsm40119633f8f.0 - gsmtp
+
+2: SMTP Error: Could not authenticate.
+1: CLIENT -> SERVER: QUIT
+
+2: SERVER -> CLIENT: 221 2.0.0 closing connection ffacd0b85a97d-437969fd36dsm40119633f8f.0 - gsmtp
+
+2: SMTP Error: Could not authenticate.
+2: SERVER -> CLIENT: 220 smtp.gmail.com ESMTP 5b1f17b1804b1-4834d5d78cfsm807826275e9.1 - gsmtp
+
+1: CLIENT -> SERVER: EHLO localhost
+
+2: SERVER -> CLIENT: 250-smtp.gmail.com at your service, [129.122.56.170]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+1: CLIENT -> SERVER: STARTTLS
+
+2: SERVER -> CLIENT: 220 2.0.0 Ready to start TLS
+
+1: CLIENT -> SERVER: EHLO localhost
+
+2: SERVER -> CLIENT: 250-smtp.gmail.com at your service, [129.122.56.170]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+1: CLIENT -> SERVER: AUTH LOGIN
+
+2: SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+1: CLIENT -> SERVER: [credentials hidden]
+2: SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+1: CLIENT -> SERVER: [credentials hidden]
+2: SERVER -> CLIENT: 235 2.7.0 Accepted
+
+1: CLIENT -> SERVER: MAIL FROM:<blessb0243@gmail.com>
+
+2: SERVER -> CLIENT: 250 2.1.0 OK 5b1f17b1804b1-4834d5d78cfsm807826275e9.1 - gsmtp
+
+1: CLIENT -> SERVER: RCPT TO:<baidoob7525@gmail.com>
+
+2: SERVER -> CLIENT: 250 2.1.5 OK 5b1f17b1804b1-4834d5d78cfsm807826275e9.1 - gsmtp
+
+1: CLIENT -> SERVER: DATA
+
+2: SERVER -> CLIENT: 354 Go ahead 5b1f17b1804b1-4834d5d78cfsm807826275e9.1 - gsmtp
+
+1: CLIENT -> SERVER: Date: Wed, 18 Feb 2026 02:44:20 +0000
+
+1: CLIENT -> SERVER: To: Blessing Baidoo <baidoob7525@gmail.com>
+
+1: CLIENT -> SERVER: From: Your Barber Shop <blessb0243@gmail.com>
+
+1: CLIENT -> SERVER: Reply-To: Your Barber Shop <blessb0243@gmail.com>
+
+1: CLIENT -> SERVER: Subject: Appointment Confirmation #APP-260218-DB1B
+
+1: CLIENT -> SERVER: Message-ID: <bgKxT7jyPEUpgaVGIcGGqzmgYDkaMUa78UhLmhtUNw@localhost>
+
+1: CLIENT -> SERVER: X-Mailer: PHPMailer 7.0.2 (https://github.com/PHPMailer/PHPMailer)
+
+1: CLIENT -> SERVER: MIME-Version: 1.0
+
+1: CLIENT -> SERVER: Content-Type: multipart/alternative;
+
+1: CLIENT -> SERVER:  boundary="b1=_bgKxT7jyPEUpgaVGIcGGqzmgYDkaMUa78UhLmhtUNw"
+
+1: CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+1: CLIENT -> SERVER: 
+
+1: CLIENT -> SERVER: --b1=_bgKxT7jyPEUpgaVGIcGGqzmgYDkaMUa78UhLmhtUNw
+
+1: CLIENT -> SERVER: Content-Type: text/plain; charset=us-ascii
+
+1: CLIENT -> SERVER: 
+
+1: CLIENT -> SERVER: APPOINTMENT CONFIRMATION #APP-260218-DB1B
+
+1: CLIENT -> SERVER: 
+
+1: CLIENT -> SERVER: Hello Blessing Baidoo,
+
+1: CLIENT -> SERVER: 
+
+1: CLIENT -> SERVER: Thank you for booking with us! We're excited to see you soon.
+
+1: CLIENT -> SERVER: 
+
+1: CLIENT -> SERVER: APPOINTMENT DETAILS:
+
+1: CLIENT -> SERVER: ------------------
+
+1: CLIENT -> SERVER: Appointment #: APP-260218-DB1B
+
+1: CLIENT -> SERVER: Service: Beard Trim
+
+1: CLIENT -> SERVER: Date: Saturday, February 28, 2026
+
+1: CLIENT -> SERVER: Time: 2:44 AM
+
+1: CLIENT -> SERVER: Duration: 30 minutes
+
+1: CLIENT -> SERVER: Amount to Pay: GHS 30.00
+
+1: CLIENT -> SERVER: 
+
+1: CLIENT -> SERVER: LOCATION:
+
+1: CLIENT -> SERVER: 123 Barber Street, Accra, Ghana
+
+1: CLIENT -> SERVER: 
+
+1: CLIENT -> SERVER: IMPORTANT:
+
+1: CLIENT -> SERVER: - Please arrive 10 minutes before your scheduled time.
+
+1: CLIENT -> SERVER: - If you need to reschedule or cancel, please contact us at least 24 hours in advance.
+
+1: CLIENT -> SERVER: 
+
+1: CLIENT -> SERVER: Thank you for choosing our service!
+
+1: CLIENT -> SERVER: 
+
+1: CLIENT -> SERVER: Best regards,
+
+1: CLIENT -> SERVER: Your Barber Shop
+
+1: CLIENT -> SERVER: 
+
+1: CLIENT -> SERVER: --b1=_bgKxT7jyPEUpgaVGIcGGqzmgYDkaMUa78UhLmhtUNw
+
+1: CLIENT -> SERVER: Content-Type: text/html; charset=iso-8859-1
+
+1: CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+1: CLIENT -> SERVER: 
+
+1: CLIENT -> SERVER: 
+
+1: CLIENT -> SERVER:         <html>
+
+1: CLIENT -> SERVER:         <head>
+
+1: CLIENT -> SERVER:             <style>
+
+1: CLIENT -> SERVER:                 body { font-family: Arial, sans-serif; line-height: 1.6; color: #333; }
+
+1: CLIENT -> SERVER:                 .container { max-width: 600px; margin: 0 auto; padding: 20px; }
+
+1: CLIENT -> SERVER:                 .header { background: #111827; color: white; padding: 20px; text-align: center; border-radius: 5px 5px 0 0; }
+
+1: CLIENT -> SERVER:                 .content { padding: 25px; background: #f9fafb; border: 1px solid #e5e7eb; border-top: none; }
+
+1: CLIENT -> SERVER:                 .details { background: white; padding: 20px; margin: 15px 0; border-radius: 5px; box-shadow: 0 2px 4px rgba(0,0,0,0.05); }
+
+1: CLIENT -> SERVER:                 .footer { margin-top: 25px; font-size: 0.9em; color: #6b7280; text-align: center; }
+
+1: CLIENT -> SERVER:                 .button { display: inline-block; padding: 10px 20px; background: #111827; color: white; text-decoration: none; border-radius: 4px; margin: 15px 0; }
+
+1: CLIENT -> SERVER:                 .highlight { color: #111827; font-weight: bold; }
+
+1: CLIENT -> SERVER:             </style>
+
+1: CLIENT -> SERVER:         </head>
+
+1: CLIENT -> SERVER:         <body>
+
+1: CLIENT -> SERVER:             <div class='container'>
+
+1: CLIENT -> SERVER:                 <div class='header'>
+
+1: CLIENT -> SERVER:                     <h2>✅ Appointment Confirmed!</h2>
+
+1: CLIENT -> SERVER:                 </div>
+
+1: CLIENT -> SERVER:                 <div class='content'>
+
+1: CLIENT -> SERVER:                     <p>Hello Blessing Baidoo,</p>
+
+1: CLIENT -> SERVER:                     <p>Thank you for booking with us! We're excited to see you soon.</p>
+
+1: CLIENT -> SERVER:                     
+
+1: CLIENT -> SERVER:                     <div class='details'>
+
+1: CLIENT -> SERVER:                         <h3 style='margin-top: 0; color: #111827;'>Appointment Details</h3>
+
+1: CLIENT -> SERVER:                         <p><strong>Appointment #:</strong> APP-260218-DB1B</p>
+
+1: CLIENT -> SERVER:                         <p><strong>Service:</strong> Beard Trim</p>
+
+1: CLIENT -> SERVER:                         <p><strong>Date:</strong> Saturday, February 28, 2026</p>
+
+1: CLIENT -> SERVER:                         <p><strong>Time:</strong> 2:44 AM</p>
+
+1: CLIENT -> SERVER:                         <p><strong>Duration:</strong> 30 minutes</p>
+
+1: CLIENT -> SERVER:                         <p><strong>Amount to Pay:</strong> <span class='highlight'>GHS 30.00</span></p>
+
+1: CLIENT -> SERVER:                     </div>
+
+1: CLIENT -> SERVER: 
+
+1: CLIENT -> SERVER:                     <p>We're located at: <strong>123 Barber Street, Accra, Ghana</strong></p>
+
+1: CLIENT -> SERVER:                     <p>Please arrive 10 minutes before your scheduled time.</p>
+
+1: CLIENT -> SERVER:                     
+
+1: CLIENT -> SERVER:                     <div style='text-align: center; margin: 25px 0;'>
+
+1: CLIENT -> SERVER:                         <a href='https://maps.google.com' class='button'>View on Map</a>
+
+1: CLIENT -> SERVER:                     </div>
+
+1: CLIENT -> SERVER: 
+
+1: CLIENT -> SERVER:                     <p>If you need to reschedule or cancel, please contact us at least 24 hours in advance.</p>
+
+1: CLIENT -> SERVER:                     
+
+1: CLIENT -> SERVER:                     <div class='footer'>
+
+1: CLIENT -> SERVER:                         <p>Thank you for choosing our service!</p>
+
+1: CLIENT -> SERVER:                         <p><small>This is an automated message, please do not reply directly to this email.</small></p>
+
+1: CLIENT -> SERVER:                     </div>
+
+1: CLIENT -> SERVER:                 </div>
+
+1: CLIENT -> SERVER:             </div>
+
+1: CLIENT -> SERVER:         </body>
+
+1: CLIENT -> SERVER:         </html>
+
+1: CLIENT -> SERVER: 
+
+1: CLIENT -> SERVER: 
+
+1: CLIENT -> SERVER: --b1=_bgKxT7jyPEUpgaVGIcGGqzmgYDkaMUa78UhLmhtUNw--
+
+1: CLIENT -> SERVER: 
+
+1: CLIENT -> SERVER: .
+
+2: SERVER -> CLIENT: 250 2.0.0 OK  1771382662 5b1f17b1804b1-4834d5d78cfsm807826275e9.1 - gsmtp
+
+1: CLIENT -> SERVER: QUIT
+
+2: SERVER -> CLIENT: 221 2.0.0 closing connection 5b1f17b1804b1-4834d5d78cfsm807826275e9.1 - gsmtp
+
+2: SERVER -> CLIENT: 220 smtp.gmail.com ESMTP ffacd0b85a97d-43796a5b4cdsm41817001f8f.8 - gsmtp
+
+1: CLIENT -> SERVER: EHLO localhost
+
+2: SERVER -> CLIENT: 250-smtp.gmail.com at your service, [129.122.56.170]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+1: CLIENT -> SERVER: STARTTLS
+
+2: SERVER -> CLIENT: 220 2.0.0 Ready to start TLS
+
+1: CLIENT -> SERVER: EHLO localhost
+
+2: SERVER -> CLIENT: 250-smtp.gmail.com at your service, [129.122.56.170]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+1: CLIENT -> SERVER: AUTH LOGIN
+
+2: SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+1: CLIENT -> SERVER: [credentials hidden]
+2: SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+1: CLIENT -> SERVER: [credentials hidden]
+2: SERVER -> CLIENT: 235 2.7.0 Accepted
+
+1: CLIENT -> SERVER: MAIL FROM:<blessb0243@gmail.com>
+
+2: SERVER -> CLIENT: 250 2.1.0 OK ffacd0b85a97d-43796a5b4cdsm41817001f8f.8 - gsmtp
+
+1: CLIENT -> SERVER: RCPT TO:<marwolf423@gmail.com>
+
+2: SERVER -> CLIENT: 250 2.1.5 OK ffacd0b85a97d-43796a5b4cdsm41817001f8f.8 - gsmtp
+
+1: CLIENT -> SERVER: DATA
+
+2: SERVER -> CLIENT: 354 Go ahead ffacd0b85a97d-43796a5b4cdsm41817001f8f.8 - gsmtp
+
+1: CLIENT -> SERVER: Date: Wed, 18 Feb 2026 03:20:48 +0000
+
+1: CLIENT -> SERVER: To: martin <marwolf423@gmail.com>
+
+1: CLIENT -> SERVER: From: Your Barber Shop <blessb0243@gmail.com>
+
+1: CLIENT -> SERVER: Reply-To: Your Barber Shop <blessb0243@gmail.com>
+
+1: CLIENT -> SERVER: Subject: Appointment Confirmation #APP-260218-D28D
+
+1: CLIENT -> SERVER: Message-ID: <QzMDAfDP9WJvr9XhXNoF3E9YKvsqDohsAt7PC4@localhost>
+
+1: CLIENT -> SERVER: X-Mailer: PHPMailer 7.0.2 (https://github.com/PHPMailer/PHPMailer)
+
+1: CLIENT -> SERVER: MIME-Version: 1.0
+
+1: CLIENT -> SERVER: Content-Type: multipart/alternative;
+
+1: CLIENT -> SERVER:  boundary="b1=_QzMDAfDP9WJvr9XhXNoF3E9YKvsqDohsAt7PC4"
+
+1: CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+1: CLIENT -> SERVER: 
+
+1: CLIENT -> SERVER: --b1=_QzMDAfDP9WJvr9XhXNoF3E9YKvsqDohsAt7PC4
+
+1: CLIENT -> SERVER: Content-Type: text/plain; charset=us-ascii
+
+1: CLIENT -> SERVER: 
+
+1: CLIENT -> SERVER: APPOINTMENT CONFIRMATION #APP-260218-D28D
+
+1: CLIENT -> SERVER: 
+
+1: CLIENT -> SERVER: Hello martin,
+
+1: CLIENT -> SERVER: 
+
+1: CLIENT -> SERVER: Thank you for booking with us! We're excited to see you soon.
+
+1: CLIENT -> SERVER: 
+
+1: CLIENT -> SERVER: APPOINTMENT DETAILS:
+
+1: CLIENT -> SERVER: ------------------
+
+1: CLIENT -> SERVER: Appointment #: APP-260218-D28D
+
+1: CLIENT -> SERVER: Service: Beard Trim
+
+1: CLIENT -> SERVER: Date: Thursday, February 19, 2026
+
+1: CLIENT -> SERVER: Time: 6:20 AM
+
+1: CLIENT -> SERVER: Duration: 30 minutes
+
+1: CLIENT -> SERVER: Amount to Pay: GHS 30.00
+
+1: CLIENT -> SERVER: 
+
+1: CLIENT -> SERVER: LOCATION:
+
+1: CLIENT -> SERVER: 123 Barber Street, Accra, Ghana
+
+1: CLIENT -> SERVER: 
+
+1: CLIENT -> SERVER: IMPORTANT:
+
+1: CLIENT -> SERVER: - Please arrive 10 minutes before your scheduled time.
+
+1: CLIENT -> SERVER: - If you need to reschedule or cancel, please contact us at least 24 hours in advance.
+
+1: CLIENT -> SERVER: 
+
+1: CLIENT -> SERVER: Thank you for choosing our service!
+
+1: CLIENT -> SERVER: 
+
+1: CLIENT -> SERVER: Best regards,
+
+1: CLIENT -> SERVER: Your Barber Shop
+
+1: CLIENT -> SERVER: 
+
+1: CLIENT -> SERVER: --b1=_QzMDAfDP9WJvr9XhXNoF3E9YKvsqDohsAt7PC4
+
+1: CLIENT -> SERVER: Content-Type: text/html; charset=iso-8859-1
+
+1: CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+1: CLIENT -> SERVER: 
+
+1: CLIENT -> SERVER: 
+
+1: CLIENT -> SERVER:         <html>
+
+1: CLIENT -> SERVER:         <head>
+
+1: CLIENT -> SERVER:             <style>
+
+1: CLIENT -> SERVER:                 body { font-family: Arial, sans-serif; line-height: 1.6; color: #333; }
+
+1: CLIENT -> SERVER:                 .container { max-width: 600px; margin: 0 auto; padding: 20px; }
+
+1: CLIENT -> SERVER:                 .header { background: #111827; color: white; padding: 20px; text-align: center; border-radius: 5px 5px 0 0; }
+
+1: CLIENT -> SERVER:                 .content { padding: 25px; background: #f9fafb; border: 1px solid #e5e7eb; border-top: none; }
+
+1: CLIENT -> SERVER:                 .details { background: white; padding: 20px; margin: 15px 0; border-radius: 5px; box-shadow: 0 2px 4px rgba(0,0,0,0.05); }
+
+1: CLIENT -> SERVER:                 .footer { margin-top: 25px; font-size: 0.9em; color: #6b7280; text-align: center; }
+
+1: CLIENT -> SERVER:                 .button { display: inline-block; padding: 10px 20px; background: #111827; color: white; text-decoration: none; border-radius: 4px; margin: 15px 0; }
+
+1: CLIENT -> SERVER:                 .highlight { color: #111827; font-weight: bold; }
+
+1: CLIENT -> SERVER:             </style>
+
+1: CLIENT -> SERVER:         </head>
+
+1: CLIENT -> SERVER:         <body>
+
+1: CLIENT -> SERVER:             <div class='container'>
+
+1: CLIENT -> SERVER:                 <div class='header'>
+
+1: CLIENT -> SERVER:                     <h2>✅ Appointment Confirmed!</h2>
+
+1: CLIENT -> SERVER:                 </div>
+
+1: CLIENT -> SERVER:                 <div class='content'>
+
+1: CLIENT -> SERVER:                     <p>Hello martin,</p>
+
+1: CLIENT -> SERVER:                     <p>Thank you for booking with us! We're excited to see you soon.</p>
+
+1: CLIENT -> SERVER:                     
+
+1: CLIENT -> SERVER:                     <div class='details'>
+
+1: CLIENT -> SERVER:                         <h3 style='margin-top: 0; color: #111827;'>Appointment Details</h3>
+
+1: CLIENT -> SERVER:                         <p><strong>Appointment #:</strong> APP-260218-D28D</p>
+
+1: CLIENT -> SERVER:                         <p><strong>Service:</strong> Beard Trim</p>
+
+1: CLIENT -> SERVER:                         <p><strong>Date:</strong> Thursday, February 19, 2026</p>
+
+1: CLIENT -> SERVER:                         <p><strong>Time:</strong> 6:20 AM</p>
+
+1: CLIENT -> SERVER:                         <p><strong>Duration:</strong> 30 minutes</p>
+
+1: CLIENT -> SERVER:                         <p><strong>Amount to Pay:</strong> <span class='highlight'>GHS 30.00</span></p>
+
+1: CLIENT -> SERVER:                     </div>
+
+1: CLIENT -> SERVER: 
+
+1: CLIENT -> SERVER:                     <p>We're located at: <strong>123 Barber Street, Accra, Ghana</strong></p>
+
+1: CLIENT -> SERVER:                     <p>Please arrive 10 minutes before your scheduled time.</p>
+
+1: CLIENT -> SERVER:                     
+
+1: CLIENT -> SERVER:                     <div style='text-align: center; margin: 25px 0;'>
+
+1: CLIENT -> SERVER:                         <a href='https://maps.google.com' class='button'>View on Map</a>
+
+1: CLIENT -> SERVER:                     </div>
+
+1: CLIENT -> SERVER: 
+
+1: CLIENT -> SERVER:                     <p>If you need to reschedule or cancel, please contact us at least 24 hours in advance.</p>
+
+1: CLIENT -> SERVER:                     
+
+1: CLIENT -> SERVER:                     <div class='footer'>
+
+1: CLIENT -> SERVER:                         <p>Thank you for choosing our service!</p>
+
+1: CLIENT -> SERVER:                         <p><small>This is an automated message, please do not reply directly to this email.</small></p>
+
+1: CLIENT -> SERVER:                     </div>
+
+1: CLIENT -> SERVER:                 </div>
+
+1: CLIENT -> SERVER:             </div>
+
+1: CLIENT -> SERVER:         </body>
+
+1: CLIENT -> SERVER:         </html>
+
+1: CLIENT -> SERVER: 
+
+1: CLIENT -> SERVER: 
+
+1: CLIENT -> SERVER: --b1=_QzMDAfDP9WJvr9XhXNoF3E9YKvsqDohsAt7PC4--
+
+1: CLIENT -> SERVER: 
+
+1: CLIENT -> SERVER: .
+
+2: SERVER -> CLIENT: 250 2.0.0 OK  1771384851 ffacd0b85a97d-43796a5b4cdsm41817001f8f.8 - gsmtp
+
+1: CLIENT -> SERVER: QUIT
+
+2: SERVER -> CLIENT: 221 2.0.0 closing connection ffacd0b85a97d-43796a5b4cdsm41817001f8f.8 - gsmtp
+
+2: SERVER -> CLIENT: 220 smtp.gmail.com ESMTP ffacd0b85a97d-439567aad3csm7775135f8f.36 - gsmtp
+
+1: CLIENT -> SERVER: EHLO localhost
+
+2: SERVER -> CLIENT: 250-smtp.gmail.com at your service, [129.122.56.170]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+1: CLIENT -> SERVER: STARTTLS
+
+2: SERVER -> CLIENT: 220 2.0.0 Ready to start TLS
+
+1: CLIENT -> SERVER: EHLO localhost
+
+2: SERVER -> CLIENT: 250-smtp.gmail.com at your service, [129.122.56.170]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+1: CLIENT -> SERVER: AUTH LOGIN
+
+2: SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+1: CLIENT -> SERVER: [credentials hidden]
+2: SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+1: CLIENT -> SERVER: [credentials hidden]
+2: SERVER -> CLIENT: 235 2.7.0 Accepted
+
+1: CLIENT -> SERVER: MAIL FROM:<blessb0243@gmail.com>
+
+2: SERVER -> CLIENT: 250 2.1.0 OK ffacd0b85a97d-439567aad3csm7775135f8f.36 - gsmtp
+
+1: CLIENT -> SERVER: RCPT TO:<ypee_baakop3@icloud.com>
+
+2: SERVER -> CLIENT: 250 2.1.5 OK ffacd0b85a97d-439567aad3csm7775135f8f.36 - gsmtp
+
+1: CLIENT -> SERVER: DATA
+
+2: SERVER -> CLIENT: 354 Go ahead ffacd0b85a97d-439567aad3csm7775135f8f.36 - gsmtp
+
+1: CLIENT -> SERVER: Date: Wed, 18 Feb 2026 14:12:18 +0000
+
+1: CLIENT -> SERVER: To: vroy <ypee_baakop3@icloud.com>
+
+1: CLIENT -> SERVER: From: Your Barber Shop <blessb0243@gmail.com>
+
+1: CLIENT -> SERVER: Reply-To: Your Barber Shop <blessb0243@gmail.com>
+
+1: CLIENT -> SERVER: Subject: Appointment Confirmation #APP-260218-663B
+
+1: CLIENT -> SERVER: Message-ID: <sfEVeaEfTTwL7fbJendGTyxzhhpc8rA1tQqnEsZGlh8@localhost>
+
+1: CLIENT -> SERVER: X-Mailer: PHPMailer 7.0.2 (https://github.com/PHPMailer/PHPMailer)
+
+1: CLIENT -> SERVER: MIME-Version: 1.0
+
+1: CLIENT -> SERVER: Content-Type: multipart/alternative;
+
+1: CLIENT -> SERVER:  boundary="b1=_sfEVeaEfTTwL7fbJendGTyxzhhpc8rA1tQqnEsZGlh8"
+
+1: CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+1: CLIENT -> SERVER: 
+
+1: CLIENT -> SERVER: --b1=_sfEVeaEfTTwL7fbJendGTyxzhhpc8rA1tQqnEsZGlh8
+
+1: CLIENT -> SERVER: Content-Type: text/plain; charset=us-ascii
+
+1: CLIENT -> SERVER: 
+
+1: CLIENT -> SERVER: APPOINTMENT CONFIRMATION #APP-260218-663B
+
+1: CLIENT -> SERVER: 
+
+1: CLIENT -> SERVER: Hello vroy,
+
+1: CLIENT -> SERVER: 
+
+1: CLIENT -> SERVER: Thank you for booking with us! We're excited to see you soon.
+
+1: CLIENT -> SERVER: 
+
+1: CLIENT -> SERVER: APPOINTMENT DETAILS:
+
+1: CLIENT -> SERVER: ------------------
+
+1: CLIENT -> SERVER: Appointment #: APP-260218-663B
+
+1: CLIENT -> SERVER: Service: vroy
+
+1: CLIENT -> SERVER: Date: Wednesday, February 18, 2026
+
+1: CLIENT -> SERVER: Time: 7:12 PM
+
+1: CLIENT -> SERVER: Duration: 30 minutes
+
+1: CLIENT -> SERVER: Amount to Pay: GHS 4.00
+
+1: CLIENT -> SERVER: 
+
+1: CLIENT -> SERVER: LOCATION:
+
+1: CLIENT -> SERVER: 123 Barber Street, Accra, Ghana
+
+1: CLIENT -> SERVER: 
+
+1: CLIENT -> SERVER: IMPORTANT:
+
+1: CLIENT -> SERVER: - Please arrive 10 minutes before your scheduled time.
+
+1: CLIENT -> SERVER: - If you need to reschedule or cancel, please contact us at least 24 hours in advance.
+
+1: CLIENT -> SERVER: 
+
+1: CLIENT -> SERVER: Thank you for choosing our service!
+
+1: CLIENT -> SERVER: 
+
+1: CLIENT -> SERVER: Best regards,
+
+1: CLIENT -> SERVER: Your Barber Shop
+
+1: CLIENT -> SERVER: 
+
+1: CLIENT -> SERVER: --b1=_sfEVeaEfTTwL7fbJendGTyxzhhpc8rA1tQqnEsZGlh8
+
+1: CLIENT -> SERVER: Content-Type: text/html; charset=iso-8859-1
+
+1: CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+1: CLIENT -> SERVER: 
+
+1: CLIENT -> SERVER: 
+
+1: CLIENT -> SERVER:         <html>
+
+1: CLIENT -> SERVER:         <head>
+
+1: CLIENT -> SERVER:             <style>
+
+1: CLIENT -> SERVER:                 body { font-family: Arial, sans-serif; line-height: 1.6; color: #333; }
+
+1: CLIENT -> SERVER:                 .container { max-width: 600px; margin: 0 auto; padding: 20px; }
+
+1: CLIENT -> SERVER:                 .header { background: #111827; color: white; padding: 20px; text-align: center; border-radius: 5px 5px 0 0; }
+
+1: CLIENT -> SERVER:                 .content { padding: 25px; background: #f9fafb; border: 1px solid #e5e7eb; border-top: none; }
+
+1: CLIENT -> SERVER:                 .details { background: white; padding: 20px; margin: 15px 0; border-radius: 5px; box-shadow: 0 2px 4px rgba(0,0,0,0.05); }
+
+1: CLIENT -> SERVER:                 .footer { margin-top: 25px; font-size: 0.9em; color: #6b7280; text-align: center; }
+
+1: CLIENT -> SERVER:                 .button { display: inline-block; padding: 10px 20px; background: #111827; color: white; text-decoration: none; border-radius: 4px; margin: 15px 0; }
+
+1: CLIENT -> SERVER:                 .highlight { color: #111827; font-weight: bold; }
+
+1: CLIENT -> SERVER:             </style>
+
+1: CLIENT -> SERVER:         </head>
+
+1: CLIENT -> SERVER:         <body>
+
+1: CLIENT -> SERVER:             <div class='container'>
+
+1: CLIENT -> SERVER:                 <div class='header'>
+
+1: CLIENT -> SERVER:                     <h2>✅ Appointment Confirmed!</h2>
+
+1: CLIENT -> SERVER:                 </div>
+
+1: CLIENT -> SERVER:                 <div class='content'>
+
+1: CLIENT -> SERVER:                     <p>Hello vroy,</p>
+
+1: CLIENT -> SERVER:                     <p>Thank you for booking with us! We're excited to see you soon.</p>
+
+1: CLIENT -> SERVER:                     
+
+1: CLIENT -> SERVER:                     <div class='details'>
+
+1: CLIENT -> SERVER:                         <h3 style='margin-top: 0; color: #111827;'>Appointment Details</h3>
+
+1: CLIENT -> SERVER:                         <p><strong>Appointment #:</strong> APP-260218-663B</p>
+
+1: CLIENT -> SERVER:                         <p><strong>Service:</strong> vroy</p>
+
+1: CLIENT -> SERVER:                         <p><strong>Date:</strong> Wednesday, February 18, 2026</p>
+
+1: CLIENT -> SERVER:                         <p><strong>Time:</strong> 7:12 PM</p>
+
+1: CLIENT -> SERVER:                         <p><strong>Duration:</strong> 30 minutes</p>
+
+1: CLIENT -> SERVER:                         <p><strong>Amount to Pay:</strong> <span class='highlight'>GHS 4.00</span></p>
+
+1: CLIENT -> SERVER:                     </div>
+
+1: CLIENT -> SERVER: 
+
+1: CLIENT -> SERVER:                     <p>We're located at: <strong>123 Barber Street, Accra, Ghana</strong></p>
+
+1: CLIENT -> SERVER:                     <p>Please arrive 10 minutes before your scheduled time.</p>
+
+1: CLIENT -> SERVER:                     
+
+1: CLIENT -> SERVER:                     <div style='text-align: center; margin: 25px 0;'>
+
+1: CLIENT -> SERVER:                         <a href='https://maps.google.com' class='button'>View on Map</a>
+
+1: CLIENT -> SERVER:                     </div>
+
+1: CLIENT -> SERVER: 
+
+1: CLIENT -> SERVER:                     <p>If you need to reschedule or cancel, please contact us at least 24 hours in advance.</p>
+
+1: CLIENT -> SERVER:                     
+
+1: CLIENT -> SERVER:                     <div class='footer'>
+
+1: CLIENT -> SERVER:                         <p>Thank you for choosing our service!</p>
+
+1: CLIENT -> SERVER:                         <p><small>This is an automated message, please do not reply directly to this email.</small></p>
+
+1: CLIENT -> SERVER:                     </div>
+
+1: CLIENT -> SERVER:                 </div>
+
+1: CLIENT -> SERVER:             </div>
+
+1: CLIENT -> SERVER:         </body>
+
+1: CLIENT -> SERVER:         </html>
+
+1: CLIENT -> SERVER: 
+
+1: CLIENT -> SERVER: 
+
+1: CLIENT -> SERVER: --b1=_sfEVeaEfTTwL7fbJendGTyxzhhpc8rA1tQqnEsZGlh8--
+
+1: CLIENT -> SERVER: 
+
+1: CLIENT -> SERVER: .
+
+2: SERVER -> CLIENT: 250 2.0.0 OK  1771423943 ffacd0b85a97d-439567aad3csm7775135f8f.36 - gsmtp
+
+1: CLIENT -> SERVER: QUIT
+
+2: SERVER -> CLIENT: 221 2.0.0 closing connection ffacd0b85a97d-439567aad3csm7775135f8f.36 - gsmtp
+

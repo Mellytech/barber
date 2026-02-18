@@ -1,0 +1,24 @@
+==== 2026-02-18 02:47:14 ====
+Failed to send email to marwolf423@gmail.com
+Error: SMTP Error: Could not authenticate.
+
+==== 2026-02-18 02:50:49 ====
+Failed to send email to marwolf423@gmail.com
+Error: SMTP Error: Could not authenticate.
+
+==== 2026-02-18 02:51:57 ====
+Failed to send email to baidoob7525@gmail.com
+Error: SMTP Error: Could not authenticate.
+
+==== 2026-02-18 02:52:17 ====
+Failed to send email to baidoob7525@gmail.com
+Error: SMTP Error: Could not authenticate.
+
+==== 2026-02-18 02:59:42 ====
+Failed to send email to baidoob7525@gmail.com
+Error: SMTP Error: Could not authenticate.
+
+==== 2026-02-18 03:00:51 ====
+Failed to send email to baidoob7525@gmail.com
+Error: SMTP Error: Could not authenticate.
+
