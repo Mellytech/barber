@@ -63,8 +63,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                 $errors[] = 'Failed to update password. Please try again.';
             }
         } catch (PDOException $e) {
-            $errors[] = 'A database error occurred. Please try again.';
             error_log('Password reset error: ' . $e->getMessage());
+            $errors[] = 'Database Error: ' . $e->getMessage();
         }
     }
 }

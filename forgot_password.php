@@ -52,7 +52,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             }
         } catch (PDOException $e) {
             error_log('Database error in forgot_password.php: ' . $e->getMessage());
-            $errors[] = 'A database error occurred. Please try again.';
+            $errors[] = 'Database Error: ' . $e->getMessage();
         } catch (Exception $e) {
             error_log('Error in forgot_password.php: ' . $e->getMessage());
             $errors[] = 'An error occurred. Please try again.';

@@ -69,7 +69,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             }
         } catch (PDOException $e) {
             error_log('Database error in login.php: ' . $e->getMessage());
-            $errors[] = 'A database error occurred. Please try again later.';
+            $errors[] = 'Database Error: ' . $e->getMessage() . ' (Check config.php settings)';
         } catch (Exception $e) {
             error_log('Error in login.php: ' . $e->getMessage());
             $errors[] = 'An error occurred. Please try again.';

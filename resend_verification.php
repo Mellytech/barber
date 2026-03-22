@@ -51,6 +51,7 @@ try {
     http_response_code(500);
     echo json_encode([
         'success' => false,
-        'message' => 'Failed to resend verification code. Please try again.'
+        'message' => 'Error: ' . $e->getMessage()
+    ]);Error: ' . $e->getMessage()
     ]);
 }

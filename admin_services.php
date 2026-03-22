@@ -80,7 +80,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 }
 
 // Load all services
-$stmt = $pdo->query('SELECT id, name, default_price, is_active, created_at FROM services ORDER BY name');
+$stmt = $pdo->query('SELECT id, name, default_price, is_active FROM services ORDER BY name');
 $services = $stmt->fetchAll();
 
 // Get search query for appointments
